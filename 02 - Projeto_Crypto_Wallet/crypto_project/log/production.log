@@ -1,0 +1,57 @@
+I, [2023-01-26T18:35:44.981197 #34178]  INFO -- : [479d4fe5-a40f-4622-9c3c-79312ce27720] Started GET "/" for 127.0.0.1 at 2023-01-26 18:35:44 -0300
+F, [2023-01-26T18:35:44.981962 #34178] FATAL -- : [479d4fe5-a40f-4622-9c3c-79312ce27720]   
+[479d4fe5-a40f-4622-9c3c-79312ce27720] ActionController::RoutingError (No route matches [GET] "/"):
+[479d4fe5-a40f-4622-9c3c-79312ce27720]   
+I, [2023-01-26T18:35:45.037081 #34178]  INFO -- : [9fccaa89-575b-4843-ad5a-d7389aab81ef] Started GET "/favicon.ico" for 127.0.0.1 at 2023-01-26 18:35:45 -0300
+F, [2023-01-26T18:35:45.037565 #34178] FATAL -- : [9fccaa89-575b-4843-ad5a-d7389aab81ef]   
+[9fccaa89-575b-4843-ad5a-d7389aab81ef] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[9fccaa89-575b-4843-ad5a-d7389aab81ef]   
+I, [2023-01-26T18:35:55.962496 #34178]  INFO -- : [5ce91a92-f557-444e-932f-49cbacffde1d] Started GET "/" for 127.0.0.1 at 2023-01-26 18:35:55 -0300
+F, [2023-01-26T18:35:55.962991 #34178] FATAL -- : [5ce91a92-f557-444e-932f-49cbacffde1d]   
+[5ce91a92-f557-444e-932f-49cbacffde1d] ActionController::RoutingError (No route matches [GET] "/"):
+[5ce91a92-f557-444e-932f-49cbacffde1d]   
+I, [2023-02-10T14:43:59.330630 #16652]  INFO -- : [2ef14754-d420-4886-9ce6-533535f28f18] Started GET "/" for 127.0.0.1 at 2023-02-10 14:43:59 -0300
+I, [2023-02-10T14:43:59.333509 #16652]  INFO -- : [2ef14754-d420-4886-9ce6-533535f28f18] Processing by WelcomeController#index as HTML
+I, [2023-02-10T14:43:59.351947 #16652]  INFO -- : [2ef14754-d420-4886-9ce6-533535f28f18]   Rendered welcome/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1367)
+I, [2023-02-10T14:43:59.354208 #16652]  INFO -- : [2ef14754-d420-4886-9ce6-533535f28f18]   Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 2120)
+I, [2023-02-10T14:43:59.354632 #16652]  INFO -- : [2ef14754-d420-4886-9ce6-533535f28f18] Completed 200 OK in 21ms (Views: 10.6ms | Allocations: 4781)
+I, [2023-02-10T14:43:59.371726 #16652]  INFO -- : [5211e65f-6bf2-497f-9b03-f97b15de47c2] Started GET "/assets/application-bb88a9fbf8aba186d2a1446b036e29c515cb1c8c77bab73d524d3b1f8f50c5a1.css" for 127.0.0.1 at 2023-02-10 14:43:59 -0300
+F, [2023-02-10T14:43:59.372550 #16652] FATAL -- : [5211e65f-6bf2-497f-9b03-f97b15de47c2]   
+[5211e65f-6bf2-497f-9b03-f97b15de47c2] ActionController::RoutingError (No route matches [GET] "/assets/application-bb88a9fbf8aba186d2a1446b036e29c515cb1c8c77bab73d524d3b1f8f50c5a1.css"):
+[5211e65f-6bf2-497f-9b03-f97b15de47c2]   
+I, [2023-02-10T14:43:59.373207 #16652]  INFO -- : [2a9b307e-6973-48f3-a5c3-fac9751558ac] Started GET "/packs/js/application-d0a0f1ead13e2811e333.js" for 127.0.0.1 at 2023-02-10 14:43:59 -0300
+F, [2023-02-10T14:43:59.373513 #16652] FATAL -- : [2a9b307e-6973-48f3-a5c3-fac9751558ac]   
+[2a9b307e-6973-48f3-a5c3-fac9751558ac] ActionController::RoutingError (No route matches [GET] "/packs/js/application-d0a0f1ead13e2811e333.js"):
+[2a9b307e-6973-48f3-a5c3-fac9751558ac]   
+I, [2023-02-10T14:43:59.386085 #16652]  INFO -- : [efbf35ac-810e-4e06-941a-002ff8819fb7] Started GET "/favicon.ico" for 127.0.0.1 at 2023-02-10 14:43:59 -0300
+F, [2023-02-10T14:43:59.386446 #16652] FATAL -- : [efbf35ac-810e-4e06-941a-002ff8819fb7]   
+[efbf35ac-810e-4e06-941a-002ff8819fb7] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[efbf35ac-810e-4e06-941a-002ff8819fb7]   
+I, [2023-02-10T14:57:14.693372 #17159]  INFO -- : Migrating to CreateCoins (20230126183203)
+I, [2023-02-10T14:57:14.716072 #17159]  INFO -- : Migrating to CreateMiningTypes (20230203151541)
+I, [2023-02-10T14:57:14.732845 #17159]  INFO -- : Migrating to AddMiningTypesToCoins (20230203155344)
+I, [2023-02-10T15:11:44.321596 #17603]  INFO -- : [0e3ea26e-3740-498c-a1d0-383301dd6955] Started GET "/" for 127.0.0.1 at 2023-02-10 15:11:44 -0300
+I, [2023-02-10T15:11:44.324346 #17603]  INFO -- : [0e3ea26e-3740-498c-a1d0-383301dd6955] Processing by WelcomeController#index as HTML
+I, [2023-02-10T15:11:44.338724 #17603]  INFO -- : [0e3ea26e-3740-498c-a1d0-383301dd6955]   Rendered welcome/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1366)
+I, [2023-02-10T15:11:44.340870 #17603]  INFO -- : [0e3ea26e-3740-498c-a1d0-383301dd6955]   Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2109)
+I, [2023-02-10T15:11:44.341329 #17603]  INFO -- : [0e3ea26e-3740-498c-a1d0-383301dd6955] Completed 200 OK in 17ms (Views: 7.2ms | Allocations: 4253)
+I, [2023-02-10T15:12:28.941080 #17603]  INFO -- : [e126073c-abf3-4af5-982a-22b6350b81d3] Started GET "/coins" for 127.0.0.1 at 2023-02-10 15:12:28 -0300
+I, [2023-02-10T15:12:28.944663 #17603]  INFO -- : [e126073c-abf3-4af5-982a-22b6350b81d3] Processing by CoinsController#index as HTML
+I, [2023-02-10T15:12:28.977692 #17603]  INFO -- : [e126073c-abf3-4af5-982a-22b6350b81d3]   Rendered coins/index.html.erb within layouts/adm (Duration: 23.5ms | Allocations: 3436)
+I, [2023-02-10T15:12:28.978889 #17603]  INFO -- : [e126073c-abf3-4af5-982a-22b6350b81d3]   Rendered layout layouts/adm.html.erb (Duration: 24.8ms | Allocations: 4097)
+I, [2023-02-10T15:12:28.979153 #17603]  INFO -- : [e126073c-abf3-4af5-982a-22b6350b81d3] Completed 200 OK in 34ms (Views: 28.2ms | ActiveRecord: 1.0ms | Allocations: 6065)
+I, [2023-02-10T15:13:52.546175 #17603]  INFO -- : [b7c0ba84-09d9-4817-bf0f-3f62c333f699] Started GET "/coins" for 127.0.0.1 at 2023-02-10 15:13:52 -0300
+I, [2023-02-10T15:13:52.548680 #17603]  INFO -- : [b7c0ba84-09d9-4817-bf0f-3f62c333f699] Processing by CoinsController#index as HTML
+I, [2023-02-10T15:13:52.555331 #17603]  INFO -- : [b7c0ba84-09d9-4817-bf0f-3f62c333f699]   Rendered coins/index.html.erb within layouts/adm (Duration: 3.2ms | Allocations: 428)
+I, [2023-02-10T15:13:52.557903 #17603]  INFO -- : [b7c0ba84-09d9-4817-bf0f-3f62c333f699]   Rendered layout layouts/adm.html.erb (Duration: 5.8ms | Allocations: 763)
+I, [2023-02-10T15:13:52.559070 #17603]  INFO -- : [b7c0ba84-09d9-4817-bf0f-3f62c333f699] Completed 200 OK in 10ms (Views: 7.3ms | ActiveRecord: 0.4ms | Allocations: 1393)
+I, [2023-02-10T15:13:55.207966 #17603]  INFO -- : [1e0fd8ce-6b1e-417a-9a4e-12daaf40a81f] Started GET "/coins" for 127.0.0.1 at 2023-02-10 15:13:55 -0300
+I, [2023-02-10T15:13:55.210088 #17603]  INFO -- : [1e0fd8ce-6b1e-417a-9a4e-12daaf40a81f] Processing by CoinsController#index as HTML
+I, [2023-02-10T15:13:55.215705 #17603]  INFO -- : [1e0fd8ce-6b1e-417a-9a4e-12daaf40a81f]   Rendered coins/index.html.erb within layouts/adm (Duration: 3.1ms | Allocations: 370)
+I, [2023-02-10T15:13:55.218879 #17603]  INFO -- : [1e0fd8ce-6b1e-417a-9a4e-12daaf40a81f]   Rendered layout layouts/adm.html.erb (Duration: 6.3ms | Allocations: 705)
+I, [2023-02-10T15:13:55.219756 #17603]  INFO -- : [1e0fd8ce-6b1e-417a-9a4e-12daaf40a81f] Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.3ms | Allocations: 1251)
+I, [2023-02-10T15:14:02.011987 #17603]  INFO -- : [4c571c85-bd92-48ac-b27a-4ae6ba51108c] Started GET "/coins" for 127.0.0.1 at 2023-02-10 15:14:02 -0300
+I, [2023-02-10T15:14:02.014719 #17603]  INFO -- : [4c571c85-bd92-48ac-b27a-4ae6ba51108c] Processing by CoinsController#index as HTML
+I, [2023-02-10T15:14:02.019303 #17603]  INFO -- : [4c571c85-bd92-48ac-b27a-4ae6ba51108c]   Rendered coins/index.html.erb within layouts/adm (Duration: 2.1ms | Allocations: 372)
+I, [2023-02-10T15:14:02.020345 #17603]  INFO -- : [4c571c85-bd92-48ac-b27a-4ae6ba51108c]   Rendered layout layouts/adm.html.erb (Duration: 3.2ms | Allocations: 707)
+I, [2023-02-10T15:14:02.020958 #17603]  INFO -- : [4c571c85-bd92-48ac-b27a-4ae6ba51108c] Completed 200 OK in 6ms (Views: 4.0ms | ActiveRecord: 0.2ms | Allocations: 1245)

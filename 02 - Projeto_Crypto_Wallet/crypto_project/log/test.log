@@ -1,0 +1,69 @@
+Started GET "/" for 127.0.0.1 at 2023-02-10 11:58:52 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/_menu.html.erb (Duration: 0.5ms | Allocations: 232)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 49.8ms | Allocations: 27660)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: c9ed0101ca0fccc2383e
+Version: webpack 4.46.0
+Time: 585ms
+Built at: 10/02/2023 11:58:57
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-bc4a6d854bbc996ee082.js    8.3 KiB  application  [emitted] [immutable]  application
+js/application-bc4a6d854bbc996ee082.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  384 bytes               [emitted]              
+Entrypoint application = js/application-bc4a6d854bbc996ee082.js js/application-bc4a6d854bbc996ee082.js.map
+[./app/javascript/packs/application.js.erb] 4.4 KiB {application} [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js.erb
+Module build failed (from ./.yarn/__virtual__/babel-loader-virtual-26e7916252/0/cache/babel-loader-npm-8.3.0-a5239d7ed2-d48bcf9e03.zip/node_modules/babel-loader/lib/index.js):
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'babel-plugin-macros' imported from /home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/babel-virtual-resolve-base.js
+    at __node_internal_ (/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/vendor/import-meta-resolve.js:2280:9)
+    at __node_internal_ (/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/vendor/import-meta-resolve.js:2246:11)
+    at new NodeError (/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/vendor/import-meta-resolve.js:2240:5)
+    at packageResolve (/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/vendor/import-meta-resolve.js:2776:9)
+    at moduleResolve (/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/vendor/import-meta-resolve.js:2804:18)
+    at defaultResolve (/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/vendor/import-meta-resolve.js:2835:13)
+    at /home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/vendor/import-meta-resolve.js:2855:14
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/vendor/import-meta-resolve.js:45:103)
+    at _next (/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/vendor/import-meta-resolve.js:46:194)
+    at /home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/vendor/import-meta-resolve.js:46:364
+    at new Promise (<anonymous>)
+    at /home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/vendor/import-meta-resolve.js:46:97
+    at _resolve (/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/vendor/import-meta-resolve.js:2862:19)
+    at resolve (/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/vendor/import-meta-resolve.js:2847:19)
+    at /home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/config/files/import-meta-resolve.js:27:38
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/config/files/import-meta-resolve.js:15:103)
+    at _next (/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/config/files/import-meta-resolve.js:16:194)
+
+
+(node:12920) UnhandledPromiseRejectionWarning: Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'babel-plugin-macros' imported from /home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/babel-virtual-resolve-base.js
+    at __node_internal_ (/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/vendor/import-meta-resolve.js:2280:9)
+    at __node_internal_ (/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/vendor/import-meta-resolve.js:2246:11)
+    at new NodeError (/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/vendor/import-meta-resolve.js:2240:5)
+    at packageResolve (/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/vendor/import-meta-resolve.js:2776:9)
+    at moduleResolve (/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/vendor/import-meta-resolve.js:2804:18)
+    at defaultResolve (/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/vendor/import-meta-resolve.js:2835:13)
+    at /home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/vendor/import-meta-resolve.js:2855:14
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/vendor/import-meta-resolve.js:45:103)
+    at _next (/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/vendor/import-meta-resolve.js:46:194)
+    at /home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/vendor/import-meta-resolve.js:46:364
+    at new Promise (<anonymous>)
+    at /home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/vendor/import-meta-resolve.js:46:97
+    at _resolve (/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/vendor/import-meta-resolve.js:2862:19)
+    at resolve (/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/vendor/import-meta-resolve.js:2847:19)
+    at /home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/config/files/import-meta-resolve.js:27:38
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/config/files/import-meta-resolve.js:15:103)
+    at _next (/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/02 - Projeto_Crypto_Wallet/crypto_project/.yarn/cache/@babel-core-npm-7.20.12-1f7c5fb4ea-62e6c3e214.zip/node_modules/@babel/core/lib/config/files/import-meta-resolve.js:16:194)
+(node:12920) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 12)
+(node:12920) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+
+  Rendered layout layouts/application.html.erb (Duration: 5331.3ms | Allocations: 50237)
+Completed 200 OK in 5340ms (Views: 5333.4ms | Allocations: 53940)
+Started GET "/assets/application-83cef8c5913f2392bf66c2b1533a74acdcf694ce83face0341d46e616d04032b.css" for 127.0.0.1 at 2023-02-10 11:58:57 -0300

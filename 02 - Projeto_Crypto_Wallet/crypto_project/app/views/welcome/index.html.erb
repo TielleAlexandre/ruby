@@ -1,0 +1,33 @@
+<h1>Seja bem-vindo!</h1>
+<strong><%= cookies[:curso] %></strong>
+<br>
+<strong><%= session[:curso] %></strong>
+
+<p style="color: #cc0000">Escolha seu idioma:</p>
+<%= link_to "Português", root_path(locale: "pt-BR") %>
+<br>
+<%= link_to "English", root_path(locale: "en") %>
+<p>O idioma da página é: <strong><%= t('actual_locate') %></strong></p>
+
+<strong>Hoje é dia: <%= data_br(Date.today) %> - <%= application_name %></strong>
+<br>
+<strong>Usando I18n: <%= l(Date.today) %> </strong>
+
+
+<%= render "menu" %>
+
+<h4>Menu</h4>
+<a href="/coins">Cadastros de moedas</a>
+<br>
+<%= link_to "Cadastros de Moedas", coins_path %>
+
+<br>
+
+<a href="/mining_types">Cadastros de mining types</a>
+<br>
+<%= link_to "Cadastros de Mining Types", mining_types_path %>
+
+<p>Estou no ambiente de: <strong><%= ambiente_rails %></strong></p>
+
+<p>Esta é uma variável de sessão: <strong><%= @nome %></strong> </p>
+
