@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1 class="h1">Planta</h1>
+<div class="alert alert-primary" role="alert">
+  This is a primary alert—check it out!
+</div>
+<table>
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Cor</th>
+      <th>Valor</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+      <% @planta.each do |plantum| %>
+      <tr>
+        <td><%= plantum.nome %></td>
+        <td><%= plantum.cor %></td>
+        <td><%= plantum.valor %></td>
+        <td><%= link_to 'Show', plantum %></td>
+        <td><%= link_to 'Edit', edit_plantum_path(plantum) %></td>
+        <td><%= link_to 'Destroy', plantum, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Plantum', new_plantum_path %>

@@ -1,0 +1,840 @@
+Started GET "/" for 127.0.0.1 at 2023-02-24 19:19:38 -0300
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 12.8ms | Allocations: 606)
+Completed 200 OK in 38ms (Views: 19.6ms | ActiveRecord: 0.0ms | Allocations: 4825)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-24 19:21:19 -0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.9ms | Allocations: 501)
+Completed 200 OK in 14ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 3696)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-24 19:23:20 -0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.0ms | Allocations: 501)
+Completed 200 OK in 14ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 3696)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-24 19:29:28 -0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.7ms | Allocations: 501)
+Completed 200 OK in 14ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 3696)
+
+
+Started GET "/index" for 127.0.0.1 at 2023-02-24 19:29:34 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+Started GET "/rails/info/routes?path=index" for 127.0.0.1 at 2023-02-24 19:29:48 -0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"index"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 1590)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-24 19:32:32 -0300
+  [1m[35m (10.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (13.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (12.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+You have 1 pending migration:
+
+20230224223119_create_planta.rb
+
+
+):
+  
+activerecord (6.1.7.2) lib/active_record/migration.rb:625:in `check_pending!'
+activerecord (6.1.7.2) lib/active_record/migration.rb:590:in `block (2 levels) in call'
+activesupport (6.1.7.2) lib/active_support/evented_file_update_checker.rb:59:in `execute'
+activerecord (6.1.7.2) lib/active_record/migration.rb:595:in `block in call'
+activerecord (6.1.7.2) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.7.2) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.7.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.7.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.7.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.7.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.7.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.7.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.7.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.7.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.7.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.7.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.7.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.7.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.7.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.7.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.6.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.7.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.7.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.6.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.7.2) lib/action_dispatch/middleware/host_authorization.rb:148:in `call'
+rack-mini-profiler (2.3.4) lib/mini_profiler/profiler.rb:393:in `call'
+webpacker (5.4.4) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.6) lib/rack/proxy.rb:87:in `call'
+railties (6.1.7.2) lib/rails/engine.rb:539:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreatePlanta (20230224223119)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "planta" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "nome" varchar, "cor" varchar, "valor" float, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230224223119"]]
+  [1m[36mTRANSACTION (14.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2023-02-24 22:33:04.698526"], ["updated_at", "2023-02-24 22:33:04.698526"]]
+  [1m[36mTRANSACTION (12.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2023-02-24 19:33:12 -0300
+  [1m[35m (9.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.1ms | Allocations: 501)
+Completed 200 OK in 15ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 3710)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-24 19:33:12 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 12.9ms | Allocations: 359)
+Completed 200 OK in 18ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 1859)
+
+
+Started GET "/index" for 127.0.0.1 at 2023-02-24 19:33:16 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+Started GET "/planta_path" for 127.0.0.1 at 2023-02-24 19:33:35 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/planta_path"):
+  
+Started GET "/planta" for 127.0.0.1 at 2023-02-24 19:33:46 -0300
+Processing by PlantaController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering planta/index.html.erb within layouts/application
+  [1m[36mPlantum Load (0.2ms)[0m  [1m[34mSELECT "planta".* FROM "planta"[0m
+  ↳ app/views/planta/index.html.erb:16
+  Rendered planta/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1410)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/teste_webpack/public/packs
+[Webpacker] Hash: 612b5662bda080d7f4a6
+Version: webpack 4.46.0
+Time: 4884ms
+Built at: 24/02/2023 19:33:52
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-c52457d7f370f4b0456f.js   1.93 MiB  application  [emitted] [immutable]  application
+js/application-c52457d7f370f4b0456f.js.map   2.13 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-c52457d7f370f4b0456f.js js/application-c52457d7f370f4b0456f.js.map
+[0] ./util.inspect (ignored) 15 bytes {application} [built]
+[1] util (ignored) 15 bytes {application} [built]
+[2] util (ignored) 15 bytes {application} [built]
+[3] fs (ignored) 15 bytes {application} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 578 bytes {application} [built]
+[./node_modules/bootstrapt/lib sync recursive] ./node_modules/bootstrapt/lib sync 160 bytes {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 474 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 547 bytes {application} [built]
+    + 227 hidden modules
+
+WARNING in ./node_modules/bootstrapt/lib/index.js 38:15-94
+Critical dependency: the request of a dependency is an expression
+ @ ./app/javascript/packs/application.js
+
+WARNING in ./node_modules/bootstrapt/lib/index.js 62:10-27
+Critical dependency: the request of a dependency is an expression
+ @ ./app/javascript/packs/application.js
+
+WARNING in ./node_modules/bootstrapt/lib/index.js 113:15-28
+Critical dependency: the request of a dependency is an expression
+ @ ./app/javascript/packs/application.js
+
+  Rendered layout layouts/application.html.erb (Duration: 6288.1ms | Allocations: 19392)
+Completed 200 OK in 6294ms (Views: 6290.1ms | ActiveRecord: 0.2ms | Allocations: 21502)
+
+
+Started GET "/planta" for 127.0.0.1 at 2023-02-24 19:34:36 -0300
+Processing by PlantaController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering planta/index.html.erb within layouts/application
+  [1m[36mPlantum Load (0.2ms)[0m  [1m[34mSELECT "planta".* FROM "planta"[0m
+  ↳ app/views/planta/index.html.erb:16
+  Rendered planta/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1207)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 4602)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.2ms | Allocations: 6109)
+
+
+Started GET "/planta" for 127.0.0.1 at 2023-02-24 19:35:08 -0300
+Processing by PlantaController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering planta/index.html.erb within layouts/application
+  [1m[36mPlantum Load (0.1ms)[0m  [1m[34mSELECT "planta".* FROM "planta"[0m
+  ↳ app/views/planta/index.html.erb:18
+  Rendered planta/index.html.erb within layouts/application (Duration: 7.2ms | Allocations: 1206)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 4601)
+Completed 200 OK in 21ms (Views: 17.6ms | ActiveRecord: 0.1ms | Allocations: 6019)
+
+
+Started GET "/planta" for 127.0.0.1 at 2023-02-24 19:35:38 -0300
+Processing by PlantaController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering planta/index.html.erb within layouts/application
+  [1m[36mPlantum Load (0.2ms)[0m  [1m[34mSELECT "planta".* FROM "planta"[0m
+  ↳ app/views/planta/index.html.erb:18
+  Rendered planta/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1219)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 4618)
+Completed 200 OK in 24ms (Views: 21.0ms | ActiveRecord: 0.2ms | Allocations: 6053)
+
+
+Started GET "/planta" for 127.0.0.1 at 2023-02-24 19:36:22 -0300
+Processing by PlantaController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering planta/index.html.erb within layouts/application
+  [1m[36mPlantum Load (0.1ms)[0m  [1m[34mSELECT "planta".* FROM "planta"[0m
+  ↳ app/views/planta/index.html.erb:18
+  Rendered planta/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1205)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/teste_webpack/public/packs
+[Webpacker] Hash: fe3a0f4dffbe0f6d98fd
+Version: webpack 4.46.0
+Time: 1992ms
+Built at: 24/02/2023 19:36:25
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-54f92a260f92a0200b67.js   1.91 MiB  application  [emitted] [immutable]  application
+js/application-54f92a260f92a0200b67.js.map    2.1 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-54f92a260f92a0200b67.js js/application-54f92a260f92a0200b67.js.map
+[0] ./util.inspect (ignored) 15 bytes {application} [built]
+[1] util (ignored) 15 bytes {application} [built]
+[2] util (ignored) 15 bytes {application} [built]
+[3] fs (ignored) 15 bytes {application} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 579 bytes {application} [built]
+[./node_modules/bootstrapt/lib sync recursive] ./node_modules/bootstrapt/lib sync 160 bytes {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 474 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 547 bytes {application} [built]
+    + 226 hidden modules
+
+WARNING in ./node_modules/bootstrapt/lib/index.js 38:15-94
+Critical dependency: the request of a dependency is an expression
+ @ ./app/javascript/packs/application.js
+
+WARNING in ./node_modules/bootstrapt/lib/index.js 62:10-27
+Critical dependency: the request of a dependency is an expression
+ @ ./app/javascript/packs/application.js
+
+WARNING in ./node_modules/bootstrapt/lib/index.js 113:15-28
+Critical dependency: the request of a dependency is an expression
+ @ ./app/javascript/packs/application.js
+
+  Rendered layout layouts/application.html.erb (Duration: 3097.4ms | Allocations: 5863)
+Completed 200 OK in 3102ms (Views: 3099.9ms | ActiveRecord: 0.1ms | Allocations: 7283)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-24 19:37:11 -0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.2ms | Allocations: 501)
+Completed 200 OK in 16ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 3829)
+
+
+Started GET "/planta" for 127.0.0.1 at 2023-02-24 19:37:17 -0300
+Processing by PlantaController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering planta/index.html.erb within layouts/application
+  [1m[36mPlantum Load (0.2ms)[0m  [1m[34mSELECT "planta".* FROM "planta"[0m
+  ↳ app/views/planta/index.html.erb:18
+  Rendered planta/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1449)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 7588)
+Completed 200 OK in 19ms (Views: 16.0ms | ActiveRecord: 0.2ms | Allocations: 10196)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-24 19:44:54 -0300
+  [1m[35m (7.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.4ms | Allocations: 501)
+Completed 200 OK in 15ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 3829)
+
+
+Started GET "/planta" for 127.0.0.1 at 2023-02-24 19:44:59 -0300
+Processing by PlantaController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering planta/index.html.erb within layouts/application
+  [1m[36mPlantum Load (0.2ms)[0m  [1m[34mSELECT "planta".* FROM "planta"[0m
+  ↳ app/views/planta/index.html.erb:18
+  Rendered planta/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1426)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 861ec566be857be7e10a
+Version: webpack 4.46.0
+Time: 1859ms
+Built at: 24/02/2023 19:45:02
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-b418edc6a5ddaa271f75.js   1.91 MiB  application  [emitted] [immutable]  application
+js/application-b418edc6a5ddaa271f75.js.map    2.1 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-b418edc6a5ddaa271f75.js js/application-b418edc6a5ddaa271f75.js.map
+[0] ./util.inspect (ignored) 15 bytes {application} [built]
+[1] util (ignored) 15 bytes {application} [built]
+[2] util (ignored) 15 bytes {application} [built]
+[3] fs (ignored) 15 bytes {application} [built]
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 622 bytes {application} [built]
+[./node_modules/bootstrapt/lib sync recursive] ./node_modules/bootstrapt/lib sync 160 bytes {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 474 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 547 bytes {application} [built]
+    + 226 hidden modules
+
+WARNING in ./node_modules/bootstrapt/lib/index.js 38:15-94
+Critical dependency: the request of a dependency is an expression
+ @ ./app/javascript/packs/application.js
+
+WARNING in ./node_modules/bootstrapt/lib/index.js 62:10-27
+Critical dependency: the request of a dependency is an expression
+ @ ./app/javascript/packs/application.js
+
+WARNING in ./node_modules/bootstrapt/lib/index.js 113:15-28
+Critical dependency: the request of a dependency is an expression
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve 'bootstrap/dist/css/bootstrap.css' in '/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/teste_webpack/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 14:0-42
+
+  Rendered layout layouts/application.html.erb (Duration: 2927.9ms | Allocations: 8796)
+Completed 200 OK in 2934ms (Views: 2930.0ms | ActiveRecord: 0.2ms | Allocations: 11039)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-24 19:47:21 -0300
+  [1m[35m (9.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.4ms | Allocations: 520)
+Completed 200 OK in 15ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 4091)
+
+
+Started GET "/planta" for 127.0.0.1 at 2023-02-24 19:47:25 -0300
+Processing by PlantaController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering planta/index.html.erb within layouts/application
+  [1m[36mPlantum Load (0.3ms)[0m  [1m[34mSELECT "planta".* FROM "planta"[0m
+  ↳ app/views/planta/index.html.erb:18
+  Rendered planta/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1426)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: aced20aaab514eb25d01
+Version: webpack 4.46.0
+Time: 2899ms
+Built at: 24/02/2023 19:47:29
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-04734911ebca71a1e6f8.js   1.89 MiB  application  [emitted] [immutable]  application
+js/application-04734911ebca71a1e6f8.js.map      2 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-04734911ebca71a1e6f8.js js/application-04734911ebca71a1e6f8.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 621 bytes {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 474 bytes {application} [built]
+    + 120 hidden modules
+
+ERROR in ./node_modules/bootstrap/dist/js/bootstrap.esm.js
+Module not found: Error: Can't resolve '@popperjs/core' in '/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/teste_webpack/node_modules/bootstrap/dist/js'
+ @ ./node_modules/bootstrap/dist/js/bootstrap.esm.js 17:0-41 1804:15-21 1816:19-38 3110:15-21 3317:11-30
+ @ ./app/javascript/packs/application.js
+
+  Rendered layout layouts/application.html.erb (Duration: 3937.0ms | Allocations: 8799)
+Completed 200 OK in 3942ms (Views: 3938.8ms | ActiveRecord: 0.3ms | Allocations: 11367)
+
+
+Started GET "/planta" for 127.0.0.1 at 2023-02-24 19:47:29 -0300
+Processing by PlantaController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering planta/index.html.erb within layouts/application
+  [1m[36mPlantum Load (0.1ms)[0m  [1m[34mSELECT "planta".* FROM "planta"[0m
+  ↳ app/views/planta/index.html.erb:18
+  Rendered planta/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1049)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 5482)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.1ms | Allocations: 6013)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-24 19:50:05 -0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.7ms | Allocations: 501)
+Completed 200 OK in 17ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 3829)
+
+
+Started GET "/planta" for 127.0.0.1 at 2023-02-24 19:50:11 -0300
+Processing by PlantaController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering planta/index.html.erb within layouts/application
+  [1m[36mPlantum Load (0.2ms)[0m  [1m[34mSELECT "planta".* FROM "planta"[0m
+  ↳ app/views/planta/index.html.erb:18
+  Rendered planta/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1426)
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 11747)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.2ms | Allocations: 14236)
+
+
+  
+ActionView::Template::Error (The asset "style_custom.css" is not present in the asset pipeline.
+):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= stylesheet_link_tag 'style_custom', media: 'all', 'data-turbolinks-track': 'reload' %>
+    11:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    12:   </head>
+    13: 
+  
+app/views/layouts/application.html.erb:10
+Started GET "/planta" for 127.0.0.1 at 2023-02-24 19:50:46 -0300
+Processing by PlantaController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering planta/index.html.erb within layouts/application
+  [1m[36mPlantum Load (0.2ms)[0m  [1m[34mSELECT "planta".* FROM "planta"[0m
+  ↳ app/views/planta/index.html.erb:18
+  Rendered planta/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 872)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 8001)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.2ms | Allocations: 8526)
+
+
+  
+ActionView::Template::Error (The asset "style_custom.css" is not present in the asset pipeline.
+):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= stylesheet_link_tag 'style_custom', media: 'all', 'data-turbolinks-track': 'reload' %>
+    11:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    12:   </head>
+    13: 
+  
+app/views/layouts/application.html.erb:10
+Started GET "/planta" for 127.0.0.1 at 2023-02-24 19:50:49 -0300
+Processing by PlantaController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering planta/index.html.erb within layouts/application
+  [1m[36mPlantum Load (0.2ms)[0m  [1m[34mSELECT "planta".* FROM "planta"[0m
+  ↳ app/views/planta/index.html.erb:18
+  Rendered planta/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 768)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 7779)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.2ms | Allocations: 8216)
+
+
+  
+ActionView::Template::Error (The asset "style_custom.css" is not present in the asset pipeline.
+):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= stylesheet_link_tag 'style_custom', media: 'all', 'data-turbolinks-track': 'reload' %>
+    11:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    12:   </head>
+    13: 
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for 127.0.0.1 at 2023-02-24 19:59:36 -0300
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.3ms | Allocations: 501)
+Completed 200 OK in 14ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 3829)
+
+
+Started GET "/planta" for 127.0.0.1 at 2023-02-24 19:59:40 -0300
+Processing by PlantaController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering planta/index.html.erb within layouts/application
+  [1m[36mPlantum Load (0.2ms)[0m  [1m[34mSELECT "planta".* FROM "planta"[0m
+  ↳ app/views/planta/index.html.erb:18
+  Rendered planta/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1426)
+Started GET "/planta" for 127.0.0.1 at 2023-02-24 19:59:44 -0300
+Processing by PlantaController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering planta/index.html.erb within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/planta/index.html.erb:18
+  [1m[36mPlantum Load (0.1ms)[0m  [1m[34mSELECT "planta".* FROM "planta"[0m
+  ↳ app/views/planta/index.html.erb:18
+  Rendered planta/index.html.erb within layouts/application (Duration: 9.0ms | Allocations: 2018)
+[Webpacker] Compiling...
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 22859fa608bda1d80609
+Version: webpack 4.46.0
+Time: 1391ms
+Built at: 24/02/2023 19:59:55
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-08a07dcbd8de35fbea8d.js   1.06 MiB  application  [emitted] [immutable]  application
+js/application-08a07dcbd8de35fbea8d.js.map   1.14 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-08a07dcbd8de35fbea8d.js js/application-08a07dcbd8de35fbea8d.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 622 bytes {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 474 bytes {application} [built]
+    + 116 hidden modules
+
+ERROR in ./node_modules/bootstrap/dist/js/bootstrap.esm.js
+Module not found: Error: Can't resolve '@popperjs/core' in '/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/teste_webpack/node_modules/bootstrap/dist/js'
+ @ ./node_modules/bootstrap/dist/js/bootstrap.esm.js 17:0-41 1804:15-21 1816:19-38 3110:15-21 3317:11-30
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve '~bootstrap/dist/css/bootstrap.css' in '/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/teste_webpack/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 14:0-43
+
+  Rendered layout layouts/application.html.erb (Duration: 10126.3ms | Allocations: 79771)
+Completed 200 OK in 10127ms (Views: 10126.4ms | ActiveRecord: 0.3ms | Allocations: 80335)
+
+
+[Webpacker] Compilation failed:
+Hash: 22859fa608bda1d80609
+Version: webpack 4.46.0
+Time: 1471ms
+Built at: 24/02/2023 19:59:55
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-08a07dcbd8de35fbea8d.js   1.06 MiB  application  [emitted] [immutable]  application
+js/application-08a07dcbd8de35fbea8d.js.map   1.14 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-08a07dcbd8de35fbea8d.js js/application-08a07dcbd8de35fbea8d.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 622 bytes {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 474 bytes {application} [built]
+    + 116 hidden modules
+
+ERROR in ./node_modules/bootstrap/dist/js/bootstrap.esm.js
+Module not found: Error: Can't resolve '@popperjs/core' in '/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/teste_webpack/node_modules/bootstrap/dist/js'
+ @ ./node_modules/bootstrap/dist/js/bootstrap.esm.js 17:0-41 1804:15-21 1816:19-38 3110:15-21 3317:11-30
+ @ ./app/javascript/packs/application.js
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve '~bootstrap/dist/css/bootstrap.css' in '/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/teste_webpack/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 14:0-43
+
+  Rendered layout layouts/application.html.erb (Duration: 14206.4ms | Allocations: 134383)
+Completed 200 OK in 14212ms (Views: 14208.4ms | ActiveRecord: 0.2ms | Allocations: 136856)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-24 20:10:31 -0300
+  [1m[35m (11.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.2ms | Allocations: 501)
+Completed 200 OK in 19ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 3829)
+
+
+Started GET "/planta" for 127.0.0.1 at 2023-02-24 20:10:34 -0300
+Processing by PlantaController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering planta/index.html.erb within layouts/application
+  [1m[36mPlantum Load (0.2ms)[0m  [1m[34mSELECT "planta".* FROM "planta"[0m
+  ↳ app/views/planta/index.html.erb:18
+  Rendered planta/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1426)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 4f9d6d32808f6a92047e
+Version: webpack 4.46.0
+Time: 1928ms
+Built at: 24/02/2023 20:10:37
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-f13b56a93159a275cc8a.js   1.24 MiB  application  [emitted] [immutable]  application
+js/application-f13b56a93159a275cc8a.js.map   1.26 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-f13b56a93159a275cc8a.js js/application-f13b56a93159a275cc8a.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 646 bytes {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 474 bytes {application} [built]
+    + 177 hidden modules
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve '~bootstrap/dist/css/bootstrap.css' in '/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/teste_webpack/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 15:0-43
+
+  Rendered layout layouts/application.html.erb (Duration: 2984.4ms | Allocations: 18583)
+Completed 200 OK in 2990ms (Views: 2986.6ms | ActiveRecord: 0.2ms | Allocations: 21077)
+
+
+Started GET "/planta" for 127.0.0.1 at 2023-02-24 20:10:37 -0300
+Processing by PlantaController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering planta/index.html.erb within layouts/application
+  [1m[36mPlantum Load (0.1ms)[0m  [1m[34mSELECT "planta".* FROM "planta"[0m
+  ↳ app/views/planta/index.html.erb:18
+  Rendered planta/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 763)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.0ms | Allocations: 9311)
+Completed 200 OK in 22ms (Views: 21.5ms | ActiveRecord: 0.1ms | Allocations: 9842)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-24 20:12:27 -0300
+  [1m[35m (6.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.4ms | Allocations: 501)
+Completed 200 OK in 15ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 3849)
+
+
+Started GET "/planta" for 127.0.0.1 at 2023-02-24 20:12:31 -0300
+Processing by PlantaController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering planta/index.html.erb within layouts/application
+  [1m[36mPlantum Load (0.2ms)[0m  [1m[34mSELECT "planta".* FROM "planta"[0m
+  ↳ app/views/planta/index.html.erb:18
+  Rendered planta/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1426)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: f7d06b02deaba2c960cc
+Version: webpack 4.46.0
+Time: 1465ms
+Built at: 24/02/2023 20:12:34
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-35b5e6cab0cdf1384e1b.js   1.15 MiB  application  [emitted] [immutable]  application
+js/application-35b5e6cab0cdf1384e1b.js.map   1.16 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-35b5e6cab0cdf1384e1b.js js/application-35b5e6cab0cdf1384e1b.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 647 bytes {application} [built]
+    + 176 hidden modules
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve '~bootstrap/dist/css/bootstrap.css' in '/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/teste_webpack/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 14:0-43
+
+  Rendered layout layouts/application.html.erb (Duration: 2539.8ms | Allocations: 18579)
+Completed 200 OK in 2545ms (Views: 2542.1ms | ActiveRecord: 0.2ms | Allocations: 21147)
+
+
+Started GET "/planta" for 127.0.0.1 at 2023-02-24 20:14:09 -0300
+Processing by PlantaController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering planta/index.html.erb within layouts/application
+  [1m[36mPlantum Load (0.1ms)[0m  [1m[34mSELECT "planta".* FROM "planta"[0m
+  ↳ app/views/planta/index.html.erb:18
+  Rendered planta/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 876)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 378f67104592991f1228
+Version: webpack 4.46.0
+Time: 1489ms
+Built at: 24/02/2023 20:14:12
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-14d004d466f806013d42.js   1.21 MiB  application  [emitted] [immutable]  application
+js/application-14d004d466f806013d42.js.map   1.23 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-14d004d466f806013d42.js js/application-14d004d466f806013d42.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 649 bytes {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 474 bytes {application} [built]
+    + 176 hidden modules
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve '~bootstrap/dist/css/bootstrap.css' in '/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/teste_webpack/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 14:0-43
+
+  Rendered layout layouts/application.html.erb (Duration: 2600.5ms | Allocations: 8741)
+Completed 200 OK in 2602ms (Views: 2601.3ms | ActiveRecord: 0.1ms | Allocations: 9322)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-24 20:14:20 -0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.5ms | Allocations: 602)
+Completed 200 OK in 15ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 4094)
+
+
+Started GET "/planta" for 127.0.0.1 at 2023-02-24 20:14:24 -0300
+Processing by PlantaController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering planta/index.html.erb within layouts/application
+  [1m[36mPlantum Load (0.3ms)[0m  [1m[34mSELECT "planta".* FROM "planta"[0m
+  ↳ app/views/planta/index.html.erb:18
+  Rendered planta/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1426)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.9ms | Allocations: 17301)
+Completed 200 OK in 46ms (Views: 40.9ms | ActiveRecord: 0.3ms | Allocations: 19542)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-24 20:14:26 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 22.7ms | Allocations: 261)
+Completed 200 OK in 29ms (Views: 25.1ms | ActiveRecord: 0.0ms | Allocations: 1215)
+
+
+Started GET "/panta" for 127.0.0.1 at 2023-02-24 20:14:30 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/panta"):
+  
+Started GET "/planta" for 127.0.0.1 at 2023-02-24 20:14:35 -0300
+Processing by PlantaController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering planta/index.html.erb within layouts/application
+  [1m[36mPlantum Load (0.2ms)[0m  [1m[34mSELECT "planta".* FROM "planta"[0m
+  ↳ app/views/planta/index.html.erb:18
+  Rendered planta/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 877)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.9ms | Allocations: 7830)
+Completed 200 OK in 22ms (Views: 20.1ms | ActiveRecord: 0.2ms | Allocations: 8398)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-24 20:17:06 -0300
+  [1m[35m (6.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.2ms | Allocations: 501)
+Completed 200 OK in 15ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 3829)
+
+
+Started GET "/planta" for 127.0.0.1 at 2023-02-24 20:17:09 -0300
+Processing by PlantaController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering planta/index.html.erb within layouts/application
+  [1m[36mPlantum Load (0.2ms)[0m  [1m[34mSELECT "planta".* FROM "planta"[0m
+  ↳ app/views/planta/index.html.erb:18
+  Rendered planta/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1426)
+Started GET "/planta" for 127.0.0.1 at 2023-02-24 20:17:14 -0300
+Processing by PlantaController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering planta/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/planta/index.html.erb:18
+  [1m[36mPlantum Load (0.2ms)[0m  [1m[34mSELECT "planta".* FROM "planta"[0m
+  ↳ app/views/planta/index.html.erb:18
+  Rendered planta/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1609)
+[Webpacker] Compiling...
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/teste_webpack/public/packs
+[Webpacker] Hash: 5d56101f3912a1c93a72
+Version: webpack 4.46.0
+Time: 2022ms
+Built at: 24/02/2023 20:17:30
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-ad2b1a046af05cdb72b2.js   1.21 MiB  application  [emitted] [immutable]  application
+js/application-ad2b1a046af05cdb72b2.js.map   1.23 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-ad2b1a046af05cdb72b2.js js/application-ad2b1a046af05cdb72b2.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 606 bytes {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 474 bytes {application} [built]
+    + 176 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 20687.7ms | Allocations: 208280)
+Completed 200 OK in 20694ms (Views: 20690.2ms | ActiveRecord: 0.2ms | Allocations: 210673)
+
+
+[Webpacker] Compiled all packs in /home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/teste_webpack/public/packs
+[Webpacker] Hash: 5d56101f3912a1c93a72
+Version: webpack 4.46.0
+Time: 2048ms
+Built at: 24/02/2023 20:17:30
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-ad2b1a046af05cdb72b2.js   1.21 MiB  application  [emitted] [immutable]  application
+js/application-ad2b1a046af05cdb72b2.js.map   1.23 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-ad2b1a046af05cdb72b2.js js/application-ad2b1a046af05cdb72b2.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 606 bytes {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 474 bytes {application} [built]
+    + 176 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 16435.6ms | Allocations: 166701)
+Completed 200 OK in 16437ms (Views: 16435.5ms | ActiveRecord: 0.5ms | Allocations: 167243)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-24 20:18:34 -0300
+  [1m[35m (7.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.7ms | Allocations: 501)
+Completed 200 OK in 14ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 3829)
+
+
+Started GET "/planta" for 127.0.0.1 at 2023-02-24 20:18:38 -0300
+Processing by PlantaController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering planta/index.html.erb within layouts/application
+  [1m[36mPlantum Load (0.2ms)[0m  [1m[34mSELECT "planta".* FROM "planta"[0m
+  ↳ app/views/planta/index.html.erb:18
+  Rendered planta/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1426)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/teste_webpack/public/packs
+[Webpacker] Hash: 27ecf6cfe877c3f48d1a
+Version: webpack 4.46.0
+Time: 1818ms
+Built at: 24/02/2023 20:18:41
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-573621df115c74858001.js   1.23 MiB  application  [emitted] [immutable]  application
+js/application-573621df115c74858001.js.map   1.26 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-573621df115c74858001.js js/application-573621df115c74858001.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 603 bytes {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 474 bytes {application} [built]
+    + 177 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2910.5ms | Allocations: 18787)
+Completed 200 OK in 2916ms (Views: 2912.3ms | ActiveRecord: 0.2ms | Allocations: 21128)
+
+

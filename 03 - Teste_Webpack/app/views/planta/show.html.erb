@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @plantum.nome %>
+</p>
+
+<p>
+  <strong>Cor:</strong>
+  <%= @plantum.cor %>
+</p>
+
+<p>
+  <strong>Valor:</strong>
+  <%= @plantum.valor %>
+</p>
+
+<%= link_to 'Edit', edit_plantum_path(@plantum) %> |
+<%= link_to 'Back', planta_path %>
