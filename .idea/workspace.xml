@@ -5,11 +5,98 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="495c400e-ad21-4e03-bfa4-bc6559e88dfe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Primeiro_Projeto_Ruby_Rails.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Primeiro_Projeto_Ruby_Rails.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/03 - Teste_Webpack/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/cache/bootsnap/compile-cache-iseq/d7/682b1fd70ccf32" beforeDir="false" afterPath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/cache/bootsnap/compile-cache-iseq/d7/682b1fd70ccf32" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/cache/bootsnap/load-path-cache" beforeDir="false" afterPath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/cache/bootsnap/load-path-cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_14yoaokulbexq84178x1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_1am1qjuqot5heagr51c5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_2c70ghe90a633ko30iiy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_2q0cv713o8oovbjs4p6i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_2urmn85yuclh3v7cde72" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_38krvvtfvw4ao4vazyja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_4jlya83sjdgk4l0j6kif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_554qsxg9yn3c6rzy3lre" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_5oeyyydg3h5z01ht9c35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_5ycx2zwh9ev7pm7bwaz0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_761uzl8x9ze5lbbwzeqo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_7fuf8vgqih2zefxc3d0q" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_7wnfkrojobr6fgw2szf7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_810akz9wgdzlmm5ysvg7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_8apmnspzbbs87sc85q89" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_8gsz47abtzkiqepvvnts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_8lamz4u313zy81lg74h1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_9h4bxh72okr77xbw57q6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_aqfzi5nwon0x7wrr1gie" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_aqmpmm24y6s8p8jgf0a4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_bdp9i40vdsdja7fss2si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_cr51z5u06cng4za836w4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_cyadw5eiko0e9ytzkhzf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_djdmoc81ef4oc72vjp8k" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_dpzxz36u5fpnfmyssx6k" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_dq1nreufklmdilio35e9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_eh0d1b4iwcfr1h2il5cv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_ey0cr00xdrt90otgu9b4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_f0br1rind2gkbhcljfxh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_f2cawd74nauy06uqh1vg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_f7qvur372roi699k1ez3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_f9mfb6hdvbu6fimeqydj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_f9swoed6oflnzc5wnyh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_fh32lf3snaijw6iqwyj2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_gg0ljnzyl9cfo2f7qp00" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_hkkn31qg9eqq69490ben" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_hpf15bqmnarfg18r62cf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_ht9qq4ftuzbzuz30diik" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_hur98zxnf5hqhytkgw71" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_i1s4ris23etkceylbl3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_icazafcym5xq5s7ydl3o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_ijflg0f8osgs86vafabs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_ik1xybcnh3jdt5ukd3wh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_j3sai8hn4hmrf6fcmhvg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_jsdo49z4oxop4ad3wzo9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_kzvm85bs0a0xtkokhd3n" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_l1r2irwn6v2mufavvkhl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_lipv0979xvuwrqod3glm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_lr076pxw5uv695ak5rmc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_mfpfhrugtsqwywavoj7y" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_mn8x4zx8amd70s3qs9zx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_msi4ivtrwmpkmn0kwztm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_naplrqwb4qvl0g3eco3y" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_ndcde0vfh2kqzhkm7it1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_nju6nob55rbw2f9dfpw8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_ntbjkiufoy8esxq5xddt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_o6uzipkwj5c95js6uvzu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_omhfv0rp80003leasslu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_otwri2ztefb2k85hl3fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_ou112p5xgltwxylkhgkv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_p6tqwwnh54suutcvlw9j" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_p7kwn89trq25od7356e7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_pmjg3ixacmeg6n95m2aw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_ptjcdnx0alsvfbpnvm8l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_q1uzug37813v5lxq62sf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_q9xm8yysaan3ju5tk6fb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_qcjknaoh2cuino2613u9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_qmu6yyseh03xcmbor9c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_r85k9h420no5y0czxi3y" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_rf9awhuuih3mo8bmkr2t" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_rzfwpnlndw2wp42q0dw8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_sp2h5xuac0hde2q3y2uz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_tb9ebw4nffr2mk8h63x" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_td0bu83oqfrl4wcgnoy3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_tnuhk1h6vlv4ghneufyg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_u60hqvqlezla6kyck7fk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_uts5szi9wyz2ts0z6ygv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_v4uxe5qlljqe6ipuuque" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_vg1gvsv9l56v98r5b9nk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_vxgpw0arx7bt9xiimscb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_wd8jsxy6ghy3kvfnbvq6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_wey8tzidxmd3szq6iecx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_x9e94hohbb0abgzaa1k0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_xrmwtvj8vmz1rrwus12g" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_xsrpzxrfjo2poakwnmyp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_yalelq7p7mgz81w59xsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_yxpsdc1aubde0qlqdgh4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_yy7l4zathva1ao9ctwhh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_timers_zvtikuyizdlg9k3dv4qs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/miniprofiler/mp_views_127.0.0.1" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,22 +114,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
-    &quot;ruby.structure.view.model.defaults.configured&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "ruby.rails.projectView.checked": "true",
+    "ruby.structure.view.model.defaults.configured": "true",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,6 +145,7 @@
       <workItem from="1677606868650" duration="3455000" />
       <workItem from="1677612231030" duration="772000" />
       <workItem from="1677613052220" duration="634000" />
+      <workItem from="1677613698422" duration="9758000" />
     </task>
     <servers />
   </component>

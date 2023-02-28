@@ -244,3 +244,535 @@ Processing by AdminsBackoffice::WelcomeController#index as HTML
 Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 5833)
 
 
+Started GET "/" for 127.0.0.1 at 2023-02-28 18:02:56 -0300
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 8.3ms | Allocations: 2085)
+Completed 200 OK in 20ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 5837)
+
+
+Started GET "/index" for 127.0.0.1 at 2023-02-28 18:03:00 -0300
+Processing by Site::WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering site/welcome/index.html.erb within layouts/application
+  Rendered site/welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 169)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 81.0ms | Allocations: 30947)
+Completed 200 OK in 89ms (Views: 87.3ms | ActiveRecord: 0.0ms | Allocations: 33237)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-28 18:21:02 -0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.1ms | Allocations: 662)
+Completed 200 OK in 18ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 4351)
+
+
+Started GET "/index" for 127.0.0.1 at 2023-02-28 18:21:05 -0300
+Processing by Site::WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering site/welcome/index.html.erb within layouts/application
+  Rendered site/welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 185)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 10582)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms | Allocations: 12964)
+
+
+Started GET "/index" for 127.0.0.1 at 2023-02-28 18:21:06 -0300
+Processing by Site::WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering site/welcome/index.html.erb within layouts/application
+  Rendered site/welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 40)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 3855)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 4388)
+
+
+Started GET "/rails/info/routes" for 127.0.0.1 at 2023-02-28 18:21:14 -0300
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/layouts/application.html.erb
+  Rendering /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /home/tielle/.rvm/gems/ruby-3.0.5/gems/actionpack-6.1.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [60 times] (Duration: 34.1ms | Allocations: 9653)
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/actionpack-6.1.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 2.7ms | Allocations: 1209)
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 46.9ms | Allocations: 17577)
+  Rendered layout /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/layouts/application.html.erb (Duration: 48.0ms | Allocations: 17835)
+Completed 200 OK in 52ms (Views: 50.0ms | ActiveRecord: 0.0ms | Allocations: 19323)
+
+
+Started GET "/profiles_backoffice/welcome/index" for 127.0.0.1 at 2023-02-28 18:21:42 -0300
+Processing by ProfilesBackoffice::WelcomeController#index as HTML
+Completed 401 Unauthorized in 6ms (ActiveRecord: 0.0ms | Allocations: 1326)
+
+
+Started GET "/profiles/sign_in" for 127.0.0.1 at 2023-02-28 18:21:42 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profiles/sessions/new.html.erb within layouts/application
+  Rendered profiles/shared/_links.html.erb (Duration: 1.4ms | Allocations: 699)
+  Rendered profiles/sessions/new.html.erb within layouts/application (Duration: 6.9ms | Allocations: 3734)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 7912)
+Completed 200 OK in 23ms (Views: 14.0ms | ActiveRecord: 0.5ms | Allocations: 15049)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-28 18:25:45 -0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Site::WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering site/welcome/index.html.erb within layouts/application
+  Rendered site/welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 372)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 8349)
+Completed 200 OK in 21ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 12758)
+
+
+Started GET "/admins_backoffirvce/welcome/index" for 127.0.0.1 at 2023-02-28 18:26:02 -0300
+  
+ActionController::RoutingError (uninitialized constant AdminsBackoffirvce
+Did you mean?  AdminsBackoffice):
+  
+Started GET "/admins_backoffice/welcome/index" for 127.0.0.1 at 2023-02-28 18:26:44 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/admins_backoffice/welcome/index"):
+  
+Started GET "/rails/info/routes" for 127.0.0.1 at 2023-02-28 18:27:16 -0300
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/layouts/application.html.erb
+  Rendering /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /home/tielle/.rvm/gems/ruby-3.0.5/gems/actionpack-6.1.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [61 times] (Duration: 13.7ms | Allocations: 9674)
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/actionpack-6.1.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 1.1ms | Allocations: 886)
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 20.3ms | Allocations: 17227)
+  Rendered layout /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/layouts/application.html.erb (Duration: 20.9ms | Allocations: 17460)
+Completed 200 OK in 23ms (Views: 22.0ms | Allocations: 18972)
+
+
+Started GET "/admins_backoffice/welcome/index" for 127.0.0.1 at 2023-02-28 18:27:33 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+Completed 401 Unauthorized in 6ms (Allocations: 1334)
+
+
+Started GET "/admins/sign_in" for 127.0.0.1 at 2023-02-28 18:27:33 -0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  Rendering layout layouts/application.html.erb
+  Rendering admins/sessions/new.html.erb within layouts/application
+  Rendered admins/shared/_links.html.erb (Duration: 1.2ms | Allocations: 700)
+  Rendered admins/sessions/new.html.erb within layouts/application (Duration: 5.6ms | Allocations: 3734)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 7910)
+Completed 200 OK in 24ms (Views: 13.2ms | ActiveRecord: 1.2ms | Allocations: 16340)
+
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (14.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (21.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to DeviseCreateAdmins (20230227181156)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "admins" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_admins_on_email" ON "admins" ("email")[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_admins_on_reset_password_token" ON "admins" ("reset_password_token")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230227181156"]]
+  [1m[36mTRANSACTION (14.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2023-02-28 21:51:01.381206"], ["updated_at", "2023-02-28 21:51:01.381206"]]
+  [1m[36mTRANSACTION (10.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2023-02-28 18:51:22 -0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Site::WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering site/welcome/index.html.erb within layouts/application
+  Rendered site/welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 453)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 54.4ms | Allocations: 31156)
+Completed 200 OK in 66ms (Views: 58.7ms | ActiveRecord: 0.0ms | Allocations: 36361)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-28 18:51:30 -0300
+Processing by Site::WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering site/welcome/index.html.erb within layouts/application
+  Rendered site/welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 45)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 4021)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 4622)
+
+
+Started GET "/rails/info/routes" for 127.0.0.1 at 2023-02-28 18:51:35 -0300
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/layouts/application.html.erb
+  Rendering /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /home/tielle/.rvm/gems/ruby-3.0.5/gems/actionpack-6.1.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [46 times] (Duration: 13.1ms | Allocations: 7513)
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/actionpack-6.1.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 1.7ms | Allocations: 1206)
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 34.1ms | Allocations: 14143)
+  Rendered layout /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/layouts/application.html.erb (Duration: 34.7ms | Allocations: 14402)
+Completed 200 OK in 38ms (Views: 36.3ms | ActiveRecord: 0.0ms | Allocations: 15931)
+
+
+Started GET "/rails/info/routes" for 127.0.0.1 at 2023-02-28 18:51:58 -0300
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/layouts/application.html.erb
+  Rendering /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /home/tielle/.rvm/gems/ruby-3.0.5/gems/actionpack-6.1.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [46 times] (Duration: 8.6ms | Allocations: 7381)
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/actionpack-6.1.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 1.0ms | Allocations: 886)
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 13.1ms | Allocations: 13556)
+  Rendered layout /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/layouts/application.html.erb (Duration: 13.5ms | Allocations: 13785)
+Completed 200 OK in 16ms (Views: 14.5ms | Allocations: 15188)
+
+
+Started GET "/rails/info/routes" for 127.0.0.1 at 2023-02-28 18:55:13 -0300
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/layouts/application.html.erb
+  Rendering /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /home/tielle/.rvm/gems/ruby-3.0.5/gems/actionpack-6.1.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [46 times] (Duration: 11.0ms | Allocations: 7380)
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/actionpack-6.1.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 1.1ms | Allocations: 886)
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 17.3ms | Allocations: 13562)
+  Rendered layout /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/layouts/application.html.erb (Duration: 17.8ms | Allocations: 13791)
+Completed 200 OK in 20ms (Views: 19.2ms | Allocations: 15198)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-28 19:26:32 -0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+You have 1 pending migration:
+
+20230228222541_devise_create_users.rb
+
+
+):
+  
+activerecord (6.1.7.2) lib/active_record/migration.rb:625:in `check_pending!'
+activerecord (6.1.7.2) lib/active_record/migration.rb:590:in `block (2 levels) in call'
+activesupport (6.1.7.2) lib/active_support/evented_file_update_checker.rb:59:in `execute'
+activerecord (6.1.7.2) lib/active_record/migration.rb:595:in `block in call'
+activerecord (6.1.7.2) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.7.2) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.7.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.7.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.7.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.7.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.7.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.7.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.7.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.7.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.7.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.7.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.7.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.7.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.7.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.7.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.6.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.7.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.7.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.6.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.7.2) lib/action_dispatch/middleware/host_authorization.rb:148:in `call'
+rack-mini-profiler (2.3.4) lib/mini_profiler/profiler.rb:393:in `call'
+webpacker (5.4.4) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.6) lib/rack/proxy.rb:87:in `call'
+railties (6.1.7.2) lib/rails/engine.rb:539:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (15.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (23.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to DeviseCreateAdmins (20230227181156)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "admins" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_admins_on_email" ON "admins" ("email")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_admins_on_reset_password_token" ON "admins" ("reset_password_token")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230227181156"]]
+  [1m[36mTRANSACTION (13.1ms)[0m  [1m[36mcommit transaction[0m
+Migrating to DeviseCreateUsers (20230228222541)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230228222541"]]
+  [1m[36mTRANSACTION (14.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2023-02-28 22:27:08.818534"], ["updated_at", "2023-02-28 22:27:08.818534"]]
+  [1m[36mTRANSACTION (11.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2023-02-28 19:27:15 -0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Site::WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering site/welcome/index.html.erb within layouts/application
+  Rendered site/welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 505)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 9941)
+Completed 200 OK in 26ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 15105)
+
+
+Started GET "/rails/info/routes" for 127.0.0.1 at 2023-02-28 19:27:24 -0300
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/layouts/application.html.erb
+  Rendering /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /home/tielle/.rvm/gems/ruby-3.0.5/gems/actionpack-6.1.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [61 times] (Duration: 14.6ms | Allocations: 9805)
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/actionpack-6.1.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 1.5ms | Allocations: 1204)
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 21.6ms | Allocations: 17805)
+  Rendered layout /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/layouts/application.html.erb (Duration: 22.1ms | Allocations: 18063)
+Completed 200 OK in 25ms (Views: 23.5ms | ActiveRecord: 0.0ms | Allocations: 19583)
+
+
+Started GET "/rails/info/routes" for 127.0.0.1 at 2023-02-28 19:27:34 -0300
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/layouts/application.html.erb
+  Rendering /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /home/tielle/.rvm/gems/ruby-3.0.5/gems/actionpack-6.1.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [61 times] (Duration: 16.2ms | Allocations: 9695)
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/actionpack-6.1.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 1.3ms | Allocations: 903)
+  Rendered /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 23.8ms | Allocations: 17640)
+  Rendered layout /home/tielle/.rvm/gems/ruby-3.0.5/gems/railties-6.1.7.2/lib/rails/templates/layouts/application.html.erb (Duration: 24.6ms | Allocations: 17940)
+Completed 200 OK in 44ms (Views: 42.0ms | ActiveRecord: 0.0ms | Allocations: 19542)
+
+
+Started GET "//users_backoffice/welcome/index" for 127.0.0.1 at 2023-02-28 19:27:49 -0300
+Processing by UsersBackoffice::WelcomeController#index as HTML
+Completed 401 Unauthorized in 5ms (ActiveRecord: 0.0ms | Allocations: 1338)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2023-02-28 19:27:49 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 0.9ms | Allocations: 699)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 4.8ms | Allocations: 3683)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 7866)
+Completed 200 OK in 22ms (Views: 13.5ms | ActiveRecord: 0.4ms | Allocations: 14981)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2023-02-28 19:28:18 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 2.1ms | Allocations: 574)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 8.2ms | Allocations: 2315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 6528)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms | Allocations: 8664)
+
+
+Started GET "/admins_backoffice/welcome/index" for 127.0.0.1 at 2023-02-28 19:29:11 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 434)
+
+
+Started GET "/admins/sign_in" for 127.0.0.1 at 2023-02-28 19:29:11 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/sessions/new.html.erb within layouts/application
+  Rendered admins/shared/_links.html.erb (Duration: 1.0ms | Allocations: 622)
+  Rendered admins/sessions/new.html.erb within layouts/application (Duration: 4.0ms | Allocations: 2403)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 6356)
+Completed 200 OK in 18ms (Views: 10.4ms | ActiveRecord: 0.5ms | Allocations: 10954)
+
+
+Started GET "/admins/sign_in" for 127.0.0.1 at 2023-02-28 19:29:12 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/sessions/new.html.erb within layouts/application
+  Rendered admins/shared/_links.html.erb (Duration: 0.3ms | Allocations: 173)
+  Rendered admins/sessions/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1327)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 5154)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 5837)
+
+
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (15.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (14.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to DeviseCreateAdmins (20230227181156)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "admins" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_admins_on_email" ON "admins" ("email")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_admins_on_reset_password_token" ON "admins" ("reset_password_token")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230227181156"]]
+  [1m[36mTRANSACTION (14.6ms)[0m  [1m[36mcommit transaction[0m
+Migrating to DeviseCreateUsers (20230228222541)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230228222541"]]
+  [1m[36mTRANSACTION (13.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2023-02-28 23:11:30.161455"], ["updated_at", "2023-02-28 23:11:30.161455"]]
+  [1m[36mTRANSACTION (11.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ lib/tasks/dev.rake:21:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:21:in `block (2 levels) in <main>'
+  [1m[36mAdmin Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "admins" WHERE "admins"."email" = ? LIMIT ?[0m  [["email", "admin@admin.com"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:21:in `block (2 levels) in <main>'
+  [1m[36mAdmin Create (0.2ms)[0m  [1m[32mINSERT INTO "admins" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "admin@admin.com"], ["encrypted_password", "$2a$12$OY5urxXcXZzEFKo6Xm7oK.xmpVvaXfoRRZHrmxHJ7wOJz/POwWqHi"], ["created_at", "2023-02-28 23:11:31.545604"], ["updated_at", "2023-02-28 23:11:31.545604"]]
+  ↳ lib/tasks/dev.rake:21:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (13.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:21:in `block (2 levels) in <main>'
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ lib/tasks/dev.rake:29:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:29:in `block (2 levels) in <main>'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "user@user.com"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:29:in `block (2 levels) in <main>'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "user@user.com"], ["encrypted_password", "$2a$12$F4tvJuEPvNWI5G0r7DNbCuoG5mXDg4NPOaphcPL1M5KS8zBHnukS6"], ["created_at", "2023-02-28 23:11:32.852400"], ["updated_at", "2023-02-28 23:11:32.852400"]]
+  ↳ lib/tasks/dev.rake:29:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (12.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:29:in `block (2 levels) in <main>'
+Started GET "/" for 127.0.0.1 at 2023-02-28 20:17:12 -0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Site::WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering site/welcome/index.html.erb within layouts/application
+  Rendered site/welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 471)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 10705)
+Completed 200 OK in 25ms (Views: 18.4ms | ActiveRecord: 0.0ms | Allocations: 15620)
+
+
+Started GET "/" for 127.0.0.1 at 2023-02-28 20:17:19 -0300
+Processing by Site::WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering site/welcome/index.html.erb within layouts/application
+  Rendered site/welcome/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 45)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 4021)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 4624)
+
+
+Started GET "/admins_backoffice/welcome/index" for 127.0.0.1 at 2023-02-28 20:17:28 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+Completed 401 Unauthorized in 5ms (ActiveRecord: 0.0ms | Allocations: 1341)
+
+
+Started GET "/admins/sign_in" for 127.0.0.1 at 2023-02-28 20:17:28 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering admins/sessions/new.html.erb within layouts/application
+  Rendered admins/shared/_links.html.erb (Duration: 1.1ms | Allocations: 705)
+  Rendered admins/sessions/new.html.erb within layouts/application (Duration: 5.7ms | Allocations: 3906)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 7918)
+Completed 200 OK in 22ms (Views: 12.9ms | ActiveRecord: 0.5ms | Allocations: 14821)
+
+
+Started POST "/admins/sign_in" for 127.0.0.1 at 2023-02-28 20:17:39 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "admin"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mAdmin Load (0.3ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."email" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["email", "admin@admin.com"], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/admins_backoffice/welcome/index
+Completed 303 See Other in 235ms (ActiveRecord: 0.3ms | Allocations: 6599)
+
+
+Started GET "/admins_backoffice/welcome/index" for 127.0.0.1 at 2023-02-28 20:17:40 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/admins_backoffice.html.erb
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (Duration: 1.1ms | Allocations: 148)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/admins_backoffice.html.erb (Duration: 6.0ms | Allocations: 4405)
+Completed 200 OK in 9ms (Views: 7.0ms | ActiveRecord: 0.1ms | Allocations: 6878)
+
+
+Started GET "/users_backoffice/welcome/index" for 127.0.0.1 at 2023-02-28 20:17:49 -0300
+Processing by UsersBackoffice::WelcomeController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 436)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2023-02-28 20:17:49 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/sessions/new.html.erb within layouts/application
+  Rendered users/shared/_links.html.erb (Duration: 1.1ms | Allocations: 622)
+  Rendered users/sessions/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 2350)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 6303)
+Completed 200 OK in 17ms (Views: 10.2ms | ActiveRecord: 0.5ms | Allocations: 10867)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2023-02-28 20:17:59 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"user@user.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "user@user.com"], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/users_backoffice/welcome/index
+Completed 303 See Other in 230ms (ActiveRecord: 0.3ms | Allocations: 3272)
+
+
+Started GET "/users_backoffice/welcome/index" for 127.0.0.1 at 2023-02-28 20:18:00 -0300
+Processing by UsersBackoffice::WelcomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/users_backoffice.html.erb
+  Rendering users_backoffice/welcome/index.html.erb within layouts/users_backoffice
+  Rendered users_backoffice/welcome/index.html.erb within layouts/users_backoffice (Duration: 0.2ms | Allocations: 147)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/users_backoffice.html.erb (Duration: 5.1ms | Allocations: 4402)
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.1ms | Allocations: 6621)
+
+
