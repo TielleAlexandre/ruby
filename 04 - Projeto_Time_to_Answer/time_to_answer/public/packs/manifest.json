@@ -1,14 +1,94 @@
 {
-  "application.js": "/packs/js/application-271cf8931bb708d2d8bb.js",
-  "application.js.map": "/packs/js/application-271cf8931bb708d2d8bb.js.map",
+  "admins_backoffice.js": "/packs/js/admins_backoffice-680c419d0011078d7087.js",
+  "admins_backoffice.js.map": "/packs/js/admins_backoffice-680c419d0011078d7087.js.map",
+  "application.js": "/packs/js/application-66a9461a0385b7c3ba36.js",
+  "application.js.map": "/packs/js/application-66a9461a0385b7c3ba36.js.map",
+  "chart-area-demo.js": "/packs/js/chart-area-demo-f232de8cbb80bde1be76.js",
+  "chart-area-demo.js.map": "/packs/js/chart-area-demo-f232de8cbb80bde1be76.js.map",
+  "chart-pie-demo.js": "/packs/js/chart-pie-demo-d098787ce43675ddf8e4.js",
+  "chart-pie-demo.js.map": "/packs/js/chart-pie-demo-d098787ce43675ddf8e4.js.map",
+  "custom.js": "/packs/js/custom-e7a22136e9ff65d8a46b.js",
+  "custom.js.map": "/packs/js/custom-e7a22136e9ff65d8a46b.js.map",
   "entrypoints": {
-    "application": {
+    "admins_backoffice": {
       "js": [
-        "/packs/js/application-271cf8931bb708d2d8bb.js"
+        "/packs/js/admins_backoffice-680c419d0011078d7087.js"
       ],
       "js.map": [
-        "/packs/js/application-271cf8931bb708d2d8bb.js.map"
+        "/packs/js/admins_backoffice-680c419d0011078d7087.js.map"
+      ]
+    },
+    "application": {
+      "js": [
+        "/packs/js/application-66a9461a0385b7c3ba36.js"
+      ],
+      "js.map": [
+        "/packs/js/application-66a9461a0385b7c3ba36.js.map"
+      ]
+    },
+    "chart-area-demo": {
+      "js": [
+        "/packs/js/chart-area-demo-f232de8cbb80bde1be76.js"
+      ],
+      "js.map": [
+        "/packs/js/chart-area-demo-f232de8cbb80bde1be76.js.map"
+      ]
+    },
+    "chart-pie-demo": {
+      "js": [
+        "/packs/js/chart-pie-demo-d098787ce43675ddf8e4.js"
+      ],
+      "js.map": [
+        "/packs/js/chart-pie-demo-d098787ce43675ddf8e4.js.map"
+      ]
+    },
+    "custom": {
+      "js": [
+        "/packs/js/custom-e7a22136e9ff65d8a46b.js"
+      ],
+      "js.map": [
+        "/packs/js/custom-e7a22136e9ff65d8a46b.js.map"
+      ]
+    },
+    "sb-admin-2": {
+      "js": [
+        "/packs/js/sb-admin-2-9ca758e73b53326e693b.js"
+      ],
+      "js.map": [
+        "/packs/js/sb-admin-2-9ca758e73b53326e693b.js.map"
+      ]
+    },
+    "stylesheets/jquery": {
+      "js": [
+        "/packs/js/stylesheets/jquery-e1a29cbec65f4d6f85aa.js"
+      ],
+      "js.map": [
+        "/packs/js/stylesheets/jquery-e1a29cbec65f4d6f85aa.js.map"
+      ]
+    },
+    "stylesheets/nprogress": {
+      "js": [
+        "/packs/js/stylesheets/nprogress-faeb4086470cbf8a51db.js"
+      ],
+      "js.map": [
+        "/packs/js/stylesheets/nprogress-faeb4086470cbf8a51db.js.map"
+      ]
+    },
+    "users_backoffice": {
+      "js": [
+        "/packs/js/users_backoffice-2dd11d761a3edae85b9d.js"
+      ],
+      "js.map": [
+        "/packs/js/users_backoffice-2dd11d761a3edae85b9d.js.map"
       ]
     }
-  }
+  },
+  "sb-admin-2.js": "/packs/js/sb-admin-2-9ca758e73b53326e693b.js",
+  "sb-admin-2.js.map": "/packs/js/sb-admin-2-9ca758e73b53326e693b.js.map",
+  "stylesheets/jquery.js": "/packs/js/stylesheets/jquery-e1a29cbec65f4d6f85aa.js",
+  "stylesheets/jquery.js.map": "/packs/js/stylesheets/jquery-e1a29cbec65f4d6f85aa.js.map",
+  "stylesheets/nprogress.js": "/packs/js/stylesheets/nprogress-faeb4086470cbf8a51db.js",
+  "stylesheets/nprogress.js.map": "/packs/js/stylesheets/nprogress-faeb4086470cbf8a51db.js.map",
+  "users_backoffice.js": "/packs/js/users_backoffice-2dd11d761a3edae85b9d.js",
+  "users_backoffice.js.map": "/packs/js/users_backoffice-2dd11d761a3edae85b9d.js.map"
 }

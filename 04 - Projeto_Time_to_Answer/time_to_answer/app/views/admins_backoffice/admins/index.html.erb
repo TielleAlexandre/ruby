@@ -1,0 +1,37 @@
+<h2>Olá, Estou na Admins-Controller</h2>
+
+<h3>Listando os Administradores</h3>
+
+<table class="table table-hover">
+  <thead>
+  <tr>
+    <th scope="col">Id</th>
+    <th scope="col">E-mail</th>
+    <th>
+      <%= link_to new_admins_backoffice_admins_path, class:"btn btn-success btn-circle" do%>
+        <i class="fa fa-plus" style="color: #FFFFFF;"></i>
+      <% end %>
+    </th>
+  </tr>
+  </thead>
+  <tbody>
+  <% @admins.each do |admin| %>
+  <tr>
+    <th scope="row"><%= admin.id %></th>
+    <td><%= admin.email %></td>
+    <td style="width: 150px;">
+        <%= link_to edit_admins_backoffice_admins_path(admin), class:"btn btn-primary btn-circle"  do %>
+          <i class="fa fa-edit" style="color: #FFFFFF;"></i>
+        <% end %>
+      <%= button_to admins_backoffice_admins_path(admin), method: :delete, class:"btn btn-danger btn-circle", data: { confirm: "Confirma a exclusão do usuário?" } do %>
+        <i class="fa fa-minus" style="color: #FFFFFF;"></i>
+      <% end %>
+    </td>
+  </tr>
+  <% end %>
+  </tbody>
+</table>
+
+<div class="text-center">
+  <%= paginate @admins %>
+</div>

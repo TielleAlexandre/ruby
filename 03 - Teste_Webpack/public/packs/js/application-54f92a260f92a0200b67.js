@@ -137,7 +137,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _rails_activestorage__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_rails_activestorage__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var channels__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! channels */ "./app/javascript/channels/index.js");
 /* harmony import */ var channels__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(channels__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! jquery_2.2.3 */ "./node_modules/jquery/dist/jquery.js");
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var popper_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! popper.js */ "./node_modules/popper.js/dist/esm/popper.js");
 /* harmony import */ var bootstrapt__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! bootstrapt */ "./node_modules/bootstrapt/lib/index.js");
@@ -163,7 +163,7 @@ _rails_activestorage__WEBPACK_IMPORTED_MODULE_2__["start"]();
 
 /***/ "./node_modules/@rails/activestorage/app/assets/javascripts/activestorage.js":
 /*!***********************************************************************************!*\
-  !*** ./node_modules/@rails/activestorage/app/assets/javascripts/activestorage.js ***!
+  !*** ./node_modules/@rails/activestorage/app/assets/javascript/activestorage.js ***!
   \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -1860,7 +1860,7 @@ Released under the MIT license
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
   }
 }).call(this);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery/src/jquery */ "./node_modules/jquery/src/jquery.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery_2.2.3/src/jquery_2.2.3 */ "./node_modules/jquery/src/jquery.js")))
 
 /***/ }),
 
@@ -11809,7 +11809,7 @@ module.exports = Array.isArray || function (arr) {
 
 /***/ "./node_modules/jquery/dist/jquery.js":
 /*!********************************************!*\
-  !*** ./node_modules/jquery/dist/jquery.js ***!
+  !*** ./node_modules/jquery_2.2.3/dist/jquery_2.2.3.js ***!
   \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -11836,7 +11836,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
     // For environments that do not have a `window` with a `document`
     // (such as Node.js), expose a factory as module.exports.
     // This accentuates the need for the creation of a real `window`.
-    // e.g. var jQuery = require("jquery")(window);
+    // e.g. var jQuery = require("jquery_2.2.3")(window);
     // See ticket trac-14549 for more info.
     module.exports = global.document ? factory(global, true) : function (w) {
       if (!w.document) {
@@ -13118,7 +13118,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
         // IE doesn't have `contains` on `document` so we need to check for
         // `documentElement` presence.
         // We need to fall back to `a` when `documentElement` is missing
-        // as `ownerDocument` of elements within `<template/>` may have
+        // as `ownerDocument` of elements within `<templates/>` may have
         // a null one - a default behavior of all modern browsers.
         var adown = a.nodeType === 9 && a.documentElement || a,
           bup = b && b.parentNode;
@@ -14695,7 +14695,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
       }
 
       // Support: IE 9 - 11 only, iOS 7 only, Android Browser <=4.3 only
-      // Treat the template element as a regular one in browsers that
+      // Treat the templates element as a regular one in browsers that
       // don't support it.
       if (nodeName(elem, "template")) {
         elem = elem.content || elem;
@@ -21011,7 +21011,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
   // Register as a named AMD module, since jQuery can be concatenated with other
   // files that may use define, but not via a proper concatenation script that
   // understands anonymous AMD modules. A named AMD is safest and most robust
-  // way to register. Lowercase jquery is used because AMD module names are
+  // way to register. Lowercase jquery_2.2.3 is used because AMD module names are
   // derived from file names, and jQuery is normally delivered in a lowercase
   // file name. Do this after creating the global so that if an AMD module wants
   // to call noConflict to hide this version of jQuery, it will work.
@@ -21055,7 +21055,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 /***/ "./node_modules/jquery/external/sizzle/dist/sizzle.js":
 /*!************************************************************!*\
-  !*** ./node_modules/jquery/external/sizzle/dist/sizzle.js ***!
+  !*** ./node_modules/jquery_2.2.3/external/sizzle/dist/sizzle.js ***!
   \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -21933,7 +21933,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/*!
       // IE doesn't have `contains` on `document` so we need to check for
       // `documentElement` presence.
       // We need to fall back to `a` when `documentElement` is missing
-      // as `ownerDocument` of elements within `<template/>` may have
+      // as `ownerDocument` of elements within `<templates/>` may have
       // a null one - a default behavior of all modern browsers.
       var adown = a.nodeType === 9 && a.documentElement || a,
         bup = b && b.parentNode;
@@ -23209,7 +23209,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 /***/ "./node_modules/jquery/src/ajax.js":
 /*!*****************************************!*\
-  !*** ./node_modules/jquery/src/ajax.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/ajax.js ***!
   \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -23980,7 +23980,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/ajax/jsonp.js":
 /*!***********************************************!*\
-  !*** ./node_modules/jquery/src/ajax/jsonp.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/ajax/jsonp.js ***!
   \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -24075,7 +24075,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/ajax/load.js":
 /*!**********************************************!*\
-  !*** ./node_modules/jquery/src/ajax/load.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/ajax/load.js ***!
   \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -24146,7 +24146,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/ajax/script.js":
 /*!************************************************!*\
-  !*** ./node_modules/jquery/src/ajax/script.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/ajax/script.js ***!
   \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -24223,7 +24223,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/ajax/var/location.js":
 /*!******************************************************!*\
-  !*** ./node_modules/jquery/src/ajax/var/location.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/ajax/var/location.js ***!
   \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -24239,7 +24239,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function ()
 
 /***/ "./node_modules/jquery/src/ajax/var/nonce.js":
 /*!***************************************************!*\
-  !*** ./node_modules/jquery/src/ajax/var/nonce.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/ajax/var/nonce.js ***!
   \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -24257,7 +24257,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function ()
 
 /***/ "./node_modules/jquery/src/ajax/var/rquery.js":
 /*!****************************************************!*\
-  !*** ./node_modules/jquery/src/ajax/var/rquery.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/ajax/var/rquery.js ***!
   \****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -24273,7 +24273,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function ()
 
 /***/ "./node_modules/jquery/src/ajax/xhr.js":
 /*!*********************************************!*\
-  !*** ./node_modules/jquery/src/ajax/xhr.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/ajax/xhr.js ***!
   \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -24419,7 +24419,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/attributes.js":
 /*!***********************************************!*\
-  !*** ./node_modules/jquery/src/attributes.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/attributes.js ***!
   \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -24436,7 +24436,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/attributes/attr.js":
 /*!****************************************************!*\
-  !*** ./node_modules/jquery/src/attributes/attr.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/attributes/attr.js ***!
   \****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -24559,7 +24559,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/attributes/classes.js":
 /*!*******************************************************!*\
-  !*** ./node_modules/jquery/src/attributes/classes.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/attributes/classes.js ***!
   \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -24716,7 +24716,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/attributes/prop.js":
 /*!****************************************************!*\
-  !*** ./node_modules/jquery/src/attributes/prop.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/attributes/prop.js ***!
   \****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -24828,7 +24828,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/attributes/support.js":
 /*!*******************************************************!*\
-  !*** ./node_modules/jquery/src/attributes/support.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/attributes/support.js ***!
   \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -24865,7 +24865,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/attributes/val.js":
 /*!***************************************************!*\
-  !*** ./node_modules/jquery/src/attributes/val.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/attributes/val.js ***!
   \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -25031,7 +25031,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/callbacks.js":
 /*!**********************************************!*\
-  !*** ./node_modules/jquery/src/callbacks.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/callbacks.js ***!
   \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -25238,7 +25238,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/core.js":
 /*!*****************************************!*\
-  !*** ./node_modules/jquery/src/core.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/core.js ***!
   \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -25567,13 +25567,13 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
   return jQuery;
 }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery/src/jquery */ "./node_modules/jquery/src/jquery.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery_2.2.3/src/jquery_2.2.3 */ "./node_modules/jquery/src/jquery.js")))
 
 /***/ }),
 
 /***/ "./node_modules/jquery/src/core/DOMEval.js":
 /*!*************************************************!*\
-  !*** ./node_modules/jquery/src/core/DOMEval.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/core/DOMEval.js ***!
   \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -25621,7 +25621,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/core/access.js":
 /*!************************************************!*\
-  !*** ./node_modules/jquery/src/core/access.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/core/access.js ***!
   \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -25687,7 +25687,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/core/camelCase.js":
 /*!***************************************************!*\
-  !*** ./node_modules/jquery/src/core/camelCase.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/core/camelCase.js ***!
   \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -25718,7 +25718,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/core/init.js":
 /*!**********************************************!*\
-  !*** ./node_modules/jquery/src/core/init.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/core/init.js ***!
   \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -25830,7 +25830,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// Initialize a 
 
 /***/ "./node_modules/jquery/src/core/isAttached.js":
 /*!****************************************************!*\
-  !*** ./node_modules/jquery/src/core/isAttached.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/core/isAttached.js ***!
   \****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -25864,7 +25864,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/core/nodeName.js":
 /*!**************************************************!*\
-  !*** ./node_modules/jquery/src/core/nodeName.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/core/nodeName.js ***!
   \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -25883,7 +25883,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function ()
 
 /***/ "./node_modules/jquery/src/core/parseHTML.js":
 /*!***************************************************!*\
-  !*** ./node_modules/jquery/src/core/parseHTML.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/core/parseHTML.js ***!
   \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -25943,7 +25943,7 @@ __webpack_require__(/*! ./support */ "./node_modules/jquery/src/core/support.js"
 
 /***/ "./node_modules/jquery/src/core/parseXML.js":
 /*!**************************************************!*\
-  !*** ./node_modules/jquery/src/core/parseXML.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/core/parseXML.js ***!
   \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -25979,7 +25979,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/core/ready.js":
 /*!***********************************************!*\
-  !*** ./node_modules/jquery/src/core/ready.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/core/ready.js ***!
   \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -26055,7 +26055,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/core/readyException.js":
 /*!********************************************************!*\
-  !*** ./node_modules/jquery/src/core/readyException.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/core/readyException.js ***!
   \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -26075,7 +26075,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/core/stripAndCollapse.js":
 /*!**********************************************************!*\
-  !*** ./node_modules/jquery/src/core/stripAndCollapse.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/core/stripAndCollapse.js ***!
   \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -26097,7 +26097,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/core/support.js":
 /*!*************************************************!*\
-  !*** ./node_modules/jquery/src/core/support.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/core/support.js ***!
   \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -26123,7 +26123,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/core/toType.js":
 /*!************************************************!*\
-  !*** ./node_modules/jquery/src/core/toType.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/core/toType.js ***!
   \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -26147,7 +26147,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/core/var/rsingleTag.js":
 /*!********************************************************!*\
-  !*** ./node_modules/jquery/src/core/var/rsingleTag.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/core/var/rsingleTag.js ***!
   \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -26165,7 +26165,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function ()
 
 /***/ "./node_modules/jquery/src/css.js":
 /*!****************************************!*\
-  !*** ./node_modules/jquery/src/css.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/css.js ***!
   \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -26563,7 +26563,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/css/addGetHookIf.js":
 /*!*****************************************************!*\
-  !*** ./node_modules/jquery/src/css/addGetHookIf.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/css/addGetHookIf.js ***!
   \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -26595,7 +26595,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function ()
 
 /***/ "./node_modules/jquery/src/css/adjustCSS.js":
 /*!**************************************************!*\
-  !*** ./node_modules/jquery/src/css/adjustCSS.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/css/adjustCSS.js ***!
   \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -26662,7 +26662,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/css/curCSS.js":
 /*!***********************************************!*\
-  !*** ./node_modules/jquery/src/css/curCSS.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/css/curCSS.js ***!
   \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -26754,7 +26754,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/css/finalPropName.js":
 /*!******************************************************!*\
-  !*** ./node_modules/jquery/src/css/finalPropName.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/css/finalPropName.js ***!
   \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -26798,7 +26798,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/css/hiddenVisibleSelectors.js":
 /*!***************************************************************!*\
-  !*** ./node_modules/jquery/src/css/hiddenVisibleSelectors.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/css/hiddenVisibleSelectors.js ***!
   \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -26819,7 +26819,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/css/showHide.js":
 /*!*************************************************!*\
-  !*** ./node_modules/jquery/src/css/showHide.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/css/showHide.js ***!
   \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -26918,7 +26918,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/css/support.js":
 /*!************************************************!*\
-  !*** ./node_modules/jquery/src/css/support.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/css/support.js ***!
   \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -27055,7 +27055,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/css/var/cssExpand.js":
 /*!******************************************************!*\
-  !*** ./node_modules/jquery/src/css/var/cssExpand.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/css/var/cssExpand.js ***!
   \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -27071,7 +27071,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function ()
 
 /***/ "./node_modules/jquery/src/css/var/getStyles.js":
 /*!******************************************************!*\
-  !*** ./node_modules/jquery/src/css/var/getStyles.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/css/var/getStyles.js ***!
   \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -27096,7 +27096,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function ()
 
 /***/ "./node_modules/jquery/src/css/var/isHiddenWithinTree.js":
 /*!***************************************************************!*\
-  !*** ./node_modules/jquery/src/css/var/isHiddenWithinTree.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/css/var/isHiddenWithinTree.js ***!
   \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -27134,7 +27134,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/css/var/rboxStyle.js":
 /*!******************************************************!*\
-  !*** ./node_modules/jquery/src/css/var/rboxStyle.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/css/var/rboxStyle.js ***!
   \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -27150,7 +27150,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/css/var/rcustomProp.js":
 /*!********************************************************!*\
-  !*** ./node_modules/jquery/src/css/var/rcustomProp.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/css/var/rcustomProp.js ***!
   \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -27166,7 +27166,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function ()
 
 /***/ "./node_modules/jquery/src/css/var/rnumnonpx.js":
 /*!******************************************************!*\
-  !*** ./node_modules/jquery/src/css/var/rnumnonpx.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/css/var/rnumnonpx.js ***!
   \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -27182,7 +27182,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/css/var/swap.js":
 /*!*************************************************!*\
-  !*** ./node_modules/jquery/src/css/var/swap.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/css/var/swap.js ***!
   \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -27216,7 +27216,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function ()
 
 /***/ "./node_modules/jquery/src/data.js":
 /*!*****************************************!*\
-  !*** ./node_modules/jquery/src/data.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/data.js ***!
   \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -27380,7 +27380,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/data/Data.js":
 /*!**********************************************!*\
-  !*** ./node_modules/jquery/src/data/Data.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/data/Data.js ***!
   \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -27525,7 +27525,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/data/var/acceptData.js":
 /*!********************************************************!*\
-  !*** ./node_modules/jquery/src/data/var/acceptData.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/data/var/acceptData.js ***!
   \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -27552,7 +27552,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function ()
 
 /***/ "./node_modules/jquery/src/data/var/dataPriv.js":
 /*!******************************************************!*\
-  !*** ./node_modules/jquery/src/data/var/dataPriv.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/data/var/dataPriv.js ***!
   \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -27568,7 +27568,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/data/var/dataUser.js":
 /*!******************************************************!*\
-  !*** ./node_modules/jquery/src/data/var/dataUser.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/data/var/dataUser.js ***!
   \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -27584,7 +27584,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/deferred.js":
 /*!*********************************************!*\
-  !*** ./node_modules/jquery/src/deferred.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/deferred.js ***!
   \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -27894,7 +27894,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/deferred/exceptionHook.js":
 /*!***********************************************************!*\
-  !*** ./node_modules/jquery/src/deferred/exceptionHook.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/deferred/exceptionHook.js ***!
   \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -27919,7 +27919,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/deprecated.js":
 /*!***********************************************!*\
-  !*** ./node_modules/jquery/src/deprecated.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/deprecated.js ***!
   \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -27997,7 +27997,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/deprecated/ajax-event-alias.js":
 /*!****************************************************************!*\
-  !*** ./node_modules/jquery/src/deprecated/ajax-event-alias.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/deprecated/ajax-event-alias.js ***!
   \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -28017,7 +28017,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/deprecated/event.js":
 /*!*****************************************************!*\
-  !*** ./node_modules/jquery/src/deprecated/event.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/deprecated/event.js ***!
   \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -28056,7 +28056,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/dimensions.js":
 /*!***********************************************!*\
-  !*** ./node_modules/jquery/src/dimensions.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/dimensions.js ***!
   \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -28110,7 +28110,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/effects.js":
 /*!********************************************!*\
-  !*** ./node_modules/jquery/src/effects.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/effects.js ***!
   \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -28739,7 +28739,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/effects/Tween.js":
 /*!**************************************************!*\
-  !*** ./node_modules/jquery/src/effects/Tween.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/effects/Tween.js ***!
   \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -28851,7 +28851,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/effects/animatedSelector.js":
 /*!*************************************************************!*\
-  !*** ./node_modules/jquery/src/effects/animatedSelector.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/effects/animatedSelector.js ***!
   \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -28871,7 +28871,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/event.js":
 /*!******************************************!*\
-  !*** ./node_modules/jquery/src/event.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/event.js ***!
   \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -29643,7 +29643,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/event/focusin.js":
 /*!**************************************************!*\
-  !*** ./node_modules/jquery/src/event/focusin.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/event/focusin.js ***!
   \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -29700,7 +29700,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/event/support.js":
 /*!**************************************************!*\
-  !*** ./node_modules/jquery/src/event/support.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/event/support.js ***!
   \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -29717,7 +29717,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/event/trigger.js":
 /*!**************************************************!*\
-  !*** ./node_modules/jquery/src/event/trigger.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/event/trigger.js ***!
   \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -29886,7 +29886,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/exports/amd.js":
 /*!************************************************!*\
-  !*** ./node_modules/jquery/src/exports/amd.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/exports/amd.js ***!
   \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -29897,7 +29897,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
   // Register as a named AMD module, since jQuery can be concatenated with other
   // files that may use define, but not via a proper concatenation script that
   // understands anonymous AMD modules. A named AMD is safest and most robust
-  // way to register. Lowercase jquery is used because AMD module names are
+  // way to register. Lowercase jquery_2.2.3 is used because AMD module names are
   // derived from file names, and jQuery is normally delivered in a lowercase
   // file name. Do this after creating the global so that if an AMD module wants
   // to call noConflict to hide this version of jQuery, it will work.
@@ -29919,7 +29919,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __WEBPACK_AM
 
 /***/ "./node_modules/jquery/src/exports/global.js":
 /*!***************************************************!*\
-  !*** ./node_modules/jquery/src/exports/global.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/exports/global.js ***!
   \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -29955,7 +29955,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/jquery.js":
 /*!*******************************************!*\
-  !*** ./node_modules/jquery/src/jquery.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/jquery_2.2.3.js ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -29971,7 +29971,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/manipulation.js":
 /*!*************************************************!*\
-  !*** ./node_modules/jquery/src/manipulation.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/manipulation.js ***!
   \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -30379,7 +30379,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/manipulation/_evalUrl.js":
 /*!**********************************************************!*\
-  !*** ./node_modules/jquery/src/manipulation/_evalUrl.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/manipulation/_evalUrl.js ***!
   \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -30415,7 +30415,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/manipulation/buildFragment.js":
 /*!***************************************************************!*\
-  !*** ./node_modules/jquery/src/manipulation/buildFragment.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/manipulation/buildFragment.js ***!
   \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -30517,7 +30517,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/manipulation/getAll.js":
 /*!********************************************************!*\
-  !*** ./node_modules/jquery/src/manipulation/getAll.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/manipulation/getAll.js ***!
   \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -30549,7 +30549,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/manipulation/setGlobalEval.js":
 /*!***************************************************************!*\
-  !*** ./node_modules/jquery/src/manipulation/setGlobalEval.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/manipulation/setGlobalEval.js ***!
   \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -30573,7 +30573,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/manipulation/support.js":
 /*!*********************************************************!*\
-  !*** ./node_modules/jquery/src/manipulation/support.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/manipulation/support.js ***!
   \*********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -30618,7 +30618,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/manipulation/var/rscriptType.js":
 /*!*****************************************************************!*\
-  !*** ./node_modules/jquery/src/manipulation/var/rscriptType.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/manipulation/var/rscriptType.js ***!
   \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -30634,7 +30634,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function ()
 
 /***/ "./node_modules/jquery/src/manipulation/var/rtagName.js":
 /*!**************************************************************!*\
-  !*** ./node_modules/jquery/src/manipulation/var/rtagName.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/manipulation/var/rtagName.js ***!
   \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -30653,7 +30653,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function ()
 
 /***/ "./node_modules/jquery/src/manipulation/wrapMap.js":
 /*!*********************************************************!*\
-  !*** ./node_modules/jquery/src/manipulation/wrapMap.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/manipulation/wrapMap.js ***!
   \*********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -30687,7 +30687,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/offset.js":
 /*!*******************************************!*\
-  !*** ./node_modules/jquery/src/offset.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/offset.js ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -30895,7 +30895,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/queue.js":
 /*!******************************************!*\
-  !*** ./node_modules/jquery/src/queue.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/queue.js ***!
   \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31027,7 +31027,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/queue/delay.js":
 /*!************************************************!*\
-  !*** ./node_modules/jquery/src/queue/delay.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/queue/delay.js ***!
   \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31055,7 +31055,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/selector-sizzle.js":
 /*!****************************************************!*\
-  !*** ./node_modules/jquery/src/selector-sizzle.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/selector-sizzle.js ***!
   \****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31080,7 +31080,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/selector.js":
 /*!*********************************************!*\
-  !*** ./node_modules/jquery/src/selector.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/selector.js ***!
   \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31094,7 +31094,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/serialize.js":
 /*!**********************************************!*\
-  !*** ./node_modules/jquery/src/serialize.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/serialize.js ***!
   \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31205,7 +31205,7 @@ __webpack_require__(/*! ./attributes/prop */ "./node_modules/jquery/src/attribut
 
 /***/ "./node_modules/jquery/src/traversing.js":
 /*!***********************************************!*\
-  !*** ./node_modules/jquery/src/traversing.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/traversing.js ***!
   \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31330,7 +31330,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
       }
 
       // Support: IE 9 - 11 only, iOS 7 only, Android Browser <=4.3 only
-      // Treat the template element as a regular one in browsers that
+      // Treat the templates element as a regular one in browsers that
       // don't support it.
       if (nodeName(elem, "template")) {
         elem = elem.content || elem;
@@ -31368,7 +31368,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/traversing/findFilter.js":
 /*!**********************************************************!*\
-  !*** ./node_modules/jquery/src/traversing/findFilter.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/traversing/findFilter.js ***!
   \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31454,7 +31454,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/traversing/var/dir.js":
 /*!*******************************************************!*\
-  !*** ./node_modules/jquery/src/traversing/var/dir.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/traversing/var/dir.js ***!
   \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31482,7 +31482,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/traversing/var/rneedsContext.js":
 /*!*****************************************************************!*\
-  !*** ./node_modules/jquery/src/traversing/var/rneedsContext.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/traversing/var/rneedsContext.js ***!
   \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31498,7 +31498,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/traversing/var/siblings.js":
 /*!************************************************************!*\
-  !*** ./node_modules/jquery/src/traversing/var/siblings.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/traversing/var/siblings.js ***!
   \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31522,7 +31522,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function ()
 
 /***/ "./node_modules/jquery/src/var/ObjectFunctionString.js":
 /*!*************************************************************!*\
-  !*** ./node_modules/jquery/src/var/ObjectFunctionString.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/var/ObjectFunctionString.js ***!
   \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31538,7 +31538,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/var/arr.js":
 /*!********************************************!*\
-  !*** ./node_modules/jquery/src/var/arr.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/var/arr.js ***!
   \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31554,7 +31554,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function ()
 
 /***/ "./node_modules/jquery/src/var/class2type.js":
 /*!***************************************************!*\
-  !*** ./node_modules/jquery/src/var/class2type.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/var/class2type.js ***!
   \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31571,7 +31571,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function ()
 
 /***/ "./node_modules/jquery/src/var/document.js":
 /*!*************************************************!*\
-  !*** ./node_modules/jquery/src/var/document.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/var/document.js ***!
   \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31587,7 +31587,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function ()
 
 /***/ "./node_modules/jquery/src/var/documentElement.js":
 /*!********************************************************!*\
-  !*** ./node_modules/jquery/src/var/documentElement.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/var/documentElement.js ***!
   \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31603,7 +31603,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/var/flat.js":
 /*!*********************************************!*\
-  !*** ./node_modules/jquery/src/var/flat.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/var/flat.js ***!
   \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31626,7 +31626,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/var/fnToString.js":
 /*!***************************************************!*\
-  !*** ./node_modules/jquery/src/var/fnToString.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/var/fnToString.js ***!
   \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31642,7 +31642,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/var/getProto.js":
 /*!*************************************************!*\
-  !*** ./node_modules/jquery/src/var/getProto.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/var/getProto.js ***!
   \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31658,7 +31658,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function ()
 
 /***/ "./node_modules/jquery/src/var/hasOwn.js":
 /*!***********************************************!*\
-  !*** ./node_modules/jquery/src/var/hasOwn.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/var/hasOwn.js ***!
   \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31674,7 +31674,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/var/indexOf.js":
 /*!************************************************!*\
-  !*** ./node_modules/jquery/src/var/indexOf.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/var/indexOf.js ***!
   \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31690,7 +31690,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/var/isFunction.js":
 /*!***************************************************!*\
-  !*** ./node_modules/jquery/src/var/isFunction.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/var/isFunction.js ***!
   \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31715,7 +31715,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function ()
 
 /***/ "./node_modules/jquery/src/var/isWindow.js":
 /*!*************************************************!*\
-  !*** ./node_modules/jquery/src/var/isWindow.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/var/isWindow.js ***!
   \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31733,7 +31733,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function ()
 
 /***/ "./node_modules/jquery/src/var/pnum.js":
 /*!*********************************************!*\
-  !*** ./node_modules/jquery/src/var/pnum.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/var/pnum.js ***!
   \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31749,7 +31749,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function ()
 
 /***/ "./node_modules/jquery/src/var/push.js":
 /*!*********************************************!*\
-  !*** ./node_modules/jquery/src/var/push.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/var/push.js ***!
   \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31765,7 +31765,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/var/rcheckableType.js":
 /*!*******************************************************!*\
-  !*** ./node_modules/jquery/src/var/rcheckableType.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/var/rcheckableType.js ***!
   \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31781,7 +31781,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function ()
 
 /***/ "./node_modules/jquery/src/var/rcssNum.js":
 /*!************************************************!*\
-  !*** ./node_modules/jquery/src/var/rcssNum.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/var/rcssNum.js ***!
   \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31797,7 +31797,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/var/rnothtmlwhite.js":
 /*!******************************************************!*\
-  !*** ./node_modules/jquery/src/var/rnothtmlwhite.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/var/rnothtmlwhite.js ***!
   \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31816,7 +31816,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function ()
 
 /***/ "./node_modules/jquery/src/var/rtrimCSS.js":
 /*!*************************************************!*\
-  !*** ./node_modules/jquery/src/var/rtrimCSS.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/var/rtrimCSS.js ***!
   \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31832,7 +31832,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/var/slice.js":
 /*!**********************************************!*\
-  !*** ./node_modules/jquery/src/var/slice.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/var/slice.js ***!
   \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31848,7 +31848,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/var/support.js":
 /*!************************************************!*\
-  !*** ./node_modules/jquery/src/var/support.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/var/support.js ***!
   \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31865,7 +31865,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function ()
 
 /***/ "./node_modules/jquery/src/var/toString.js":
 /*!*************************************************!*\
-  !*** ./node_modules/jquery/src/var/toString.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/var/toString.js ***!
   \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31881,7 +31881,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 /***/ "./node_modules/jquery/src/var/whitespace.js":
 /*!***************************************************!*\
-  !*** ./node_modules/jquery/src/var/whitespace.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/var/whitespace.js ***!
   \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -31898,7 +31898,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function ()
 
 /***/ "./node_modules/jquery/src/wrap.js":
 /*!*****************************************!*\
-  !*** ./node_modules/jquery/src/wrap.js ***!
+  !*** ./node_modules/jquery_2.2.3/src/wrap.js ***!
   \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -32048,7 +32048,7 @@ __webpack_require__(/*! ./traversing */ "./node_modules/jquery/src/traversing.js
     uint16Tag = '[object Uint16Array]',
     uint32Tag = '[object Uint32Array]';
 
-  /** Used to match empty string literals in compiled template source. */
+  /** Used to match empty string literals in compiled templates source. */
   var reEmptyStringLeading = /\b__p \+= '';/g,
     reEmptyStringMiddle = /\b(__p \+=) '' \+/g,
     reEmptyStringTrailing = /(__e\(.*?\)|\b__t\)) \+\n'';/g;
@@ -32059,7 +32059,7 @@ __webpack_require__(/*! ./traversing */ "./node_modules/jquery/src/traversing.js
     reHasEscapedHtml = RegExp(reEscapedHtml.source),
     reHasUnescapedHtml = RegExp(reUnescapedHtml.source);
 
-  /** Used to match template delimiters. */
+  /** Used to match templates delimiters. */
   var reEscape = /<%-([\s\S]+?)%>/g,
     reEvaluate = /<%([\s\S]+?)%>/g,
     reInterpolate = /<%=([\s\S]+?)%>/g;
@@ -32082,7 +32082,7 @@ __webpack_require__(/*! ./traversing */ "./node_modules/jquery/src/traversing.js
   /** Used to match backslashes in property paths. */
   var reEscapeChar = /\\(\\)?/g;
 
-  /** Used to match [ES template delimiters](http://ecma-international.org/ecma-262/6.0/#sec-template-literal-lexical-components). */
+  /** Used to match [ES templates delimiters](http://ecma-international.org/ecma-262/6.0/#sec-template-literal-lexical-components). */
   var reEsTemplate = /\$\{([^\\}]*(?:\\.[^\\}]*)*)\}/g;
 
   /** Used to match `RegExp` flags from their coerced string values. */
@@ -32100,7 +32100,7 @@ __webpack_require__(/*! ./traversing */ "./node_modules/jquery/src/traversing.js
   /** Used to match latin-1 supplementary letters (excluding mathematical operators). */
   var reLatin1 = /[\xc0-\xd6\xd8-\xde\xdf-\xf6\xf8-\xff]/g;
 
-  /** Used to ensure capturing order of template delimiters. */
+  /** Used to ensure capturing order of templates delimiters. */
   var reNoMatch = /($^)/;
 
   /** Used to match unescaped characters in compiled string literals. */
@@ -32116,7 +32116,7 @@ __webpack_require__(/*! ./traversing */ "./node_modules/jquery/src/traversing.js
   /** Used to assign default `context` object properties. */
   var contextProps = ['Array', 'ArrayBuffer', 'Date', 'Error', 'Float32Array', 'Float64Array', 'Function', 'Int8Array', 'Int16Array', 'Int32Array', 'Math', 'Number', 'Object', 'RegExp', 'Set', 'String', '_', 'clearTimeout', 'isFinite', 'parseFloat', 'parseInt', 'setTimeout', 'TypeError', 'Uint8Array', 'Uint8ClampedArray', 'Uint16Array', 'Uint32Array', 'WeakMap'];
 
-  /** Used to make template sourceURLs easier to identify. */
+  /** Used to make templates sourceURLs easier to identify. */
   var templateCounter = -1;
 
   /** Used to identify `toStringTag` values of typed arrays. */
@@ -32513,7 +32513,7 @@ __webpack_require__(/*! ./traversing */ "./node_modules/jquery/src/traversing.js
   }
 
   /**
-   * Used by `_.template` to escape characters for inclusion in compiled string literals.
+   * Used by `_.templates` to escape characters for inclusion in compiled string literals.
    *
    * @private
    * @param {string} chr The matched character to escape.
@@ -32850,7 +32850,7 @@ __webpack_require__(/*! ./traversing */ "./node_modules/jquery/src/traversing.js
      * `now`, `pad`, `padLeft`, `padRight`, `parseInt`, `pop`, `random`, `reduce`,
      * `reduceRight`, `repeat`, `result`, `round`, `runInContext`, `shift`, `size`,
      * `snakeCase`, `some`, `sortedIndex`, `sortedLastIndex`, `startCase`,
-     * `startsWith`, `sum`, `template`, `trim`, `trimLeft`, `trimRight`, `trunc`,
+     * `startsWith`, `sum`, `templates`, `trim`, `trimLeft`, `trimRight`, `trunc`,
      * `unescape`, `uniqueId`, `value`, and `words`
      *
      * The wrapper method `sample` will return a wrapped value when `n` is provided,
@@ -32927,8 +32927,8 @@ __webpack_require__(/*! ./traversing */ "./node_modules/jquery/src/traversing.js
     var support = lodash.support = {};
 
     /**
-     * By default, the template delimiters used by lodash are like those in
-     * embedded Ruby (ERB). Change the following template settings to use
+     * By default, the templates delimiters used by lodash are like those in
+     * embedded Ruby (ERB). Change the following templates settings to use
      * alternative delimiters.
      *
      * @static
@@ -32958,14 +32958,14 @@ __webpack_require__(/*! ./traversing */ "./node_modules/jquery/src/traversing.js
        */
       'interpolate': reInterpolate,
       /**
-       * Used to reference the data object in the template text.
+       * Used to reference the data object in the templates text.
        *
        * @memberOf _.templateSettings
        * @type string
        */
       'variable': '',
       /**
-       * Used to import variables into the compiled template.
+       * Used to import variables into the compiled templates.
        *
        * @memberOf _.templateSettings
        * @type Object
@@ -33500,7 +33500,7 @@ __webpack_require__(/*! ./traversing */ "./node_modules/jquery/src/traversing.js
     }
 
     /**
-     * Used by `_.template` to customize its `_.assign` use.
+     * Used by `_.templates` to customize its `_.assign` use.
      *
      * **Note:** This function is like `assignDefaults` except that it ignores
      * inherited property values when checking if a property is `undefined`.
@@ -38490,7 +38490,7 @@ __webpack_require__(/*! ./traversing */ "./node_modules/jquery/src/traversing.js
      * The guarded methods are:
      * `ary`, `callback`, `chunk`, `clone`, `create`, `curry`, `curryRight`,
      * `drop`, `dropRight`, `every`, `fill`, `flatten`, `invert`, `max`, `min`,
-     * `parseInt`, `slice`, `sortBy`, `take`, `takeRight`, `template`, `trim`,
+     * `parseInt`, `slice`, `sortBy`, `take`, `takeRight`, `templates`, `trim`,
      * `trimLeft`, `trimRight`, `trunc`, `random`, `range`, `sample`, `some`,
      * `sum`, `uniq`, and `words`
      *
@@ -42390,13 +42390,13 @@ __webpack_require__(/*! ./traversing */ "./node_modules/jquery/src/traversing.js
     }
 
     /**
-     * Creates a compiled template function that can interpolate data properties
+     * Creates a compiled templates function that can interpolate data properties
      * in "interpolate" delimiters, HTML-escape interpolated data properties in
      * "escape" delimiters, and execute JavaScript in "evaluate" delimiters. Data
-     * properties may be accessed as free variables in the template. If a setting
+     * properties may be accessed as free variables in the templates. If a setting
      * object is provided it takes precedence over `_.templateSettings` values.
      *
-     * **Note:** In the development build `_.template` utilizes
+     * **Note:** In the development build `_.templates` utilizes
      * [sourceURLs](http://www.html5rocks.com/en/tutorials/developertools/sourcemaps/#toc-sourceurl)
      * for easier debugging.
      *
@@ -42409,67 +42409,67 @@ __webpack_require__(/*! ./traversing */ "./node_modules/jquery/src/traversing.js
      * @static
      * @memberOf _
      * @category String
-     * @param {string} [string=''] The template string.
+     * @param {string} [string=''] The templates string.
      * @param {Object} [options] The options object.
      * @param {RegExp} [options.escape] The HTML "escape" delimiter.
      * @param {RegExp} [options.evaluate] The "evaluate" delimiter.
-     * @param {Object} [options.imports] An object to import into the template as free variables.
+     * @param {Object} [options.imports] An object to import into the templates as free variables.
      * @param {RegExp} [options.interpolate] The "interpolate" delimiter.
-     * @param {string} [options.sourceURL] The sourceURL of the template's compiled source.
+     * @param {string} [options.sourceURL] The sourceURL of the templates's compiled source.
      * @param {string} [options.variable] The data object variable name.
      * @param- {Object} [otherOptions] Enables the legacy `options` param signature.
-     * @returns {Function} Returns the compiled template function.
+     * @returns {Function} Returns the compiled templates function.
      * @example
      *
-     * // using the "interpolate" delimiter to create a compiled template
-     * var compiled = _.template('hello <%= user %>!');
+     * // using the "interpolate" delimiter to create a compiled templates
+     * var compiled = _.templates('hello <%= user %>!');
      * compiled({ 'user': 'fred' });
      * // => 'hello fred!'
      *
      * // using the HTML "escape" delimiter to escape data property values
-     * var compiled = _.template('<b><%- value %></b>');
+     * var compiled = _.templates('<b><%- value %></b>');
      * compiled({ 'value': '<script>' });
      * // => '<b>&lt;script&gt;</b>'
      *
      * // using the "evaluate" delimiter to execute JavaScript and generate HTML
-     * var compiled = _.template('<% _.forEach(users, function(user) { %><li><%- user %></li><% }); %>');
+     * var compiled = _.templates('<% _.forEach(users, function(user) { %><li><%- user %></li><% }); %>');
      * compiled({ 'users': ['fred', 'barney'] });
      * // => '<li>fred</li><li>barney</li>'
      *
      * // using the internal `print` function in "evaluate" delimiters
-     * var compiled = _.template('<% print("hello " + user); %>!');
+     * var compiled = _.templates('<% print("hello " + user); %>!');
      * compiled({ 'user': 'barney' });
      * // => 'hello barney!'
      *
      * // using the ES delimiter as an alternative to the default "interpolate" delimiter
-     * var compiled = _.template('hello ${ user }!');
+     * var compiled = _.templates('hello ${ user }!');
      * compiled({ 'user': 'pebbles' });
      * // => 'hello pebbles!'
      *
-     * // using custom template delimiters
+     * // using custom templates delimiters
      * _.templateSettings.interpolate = /{{([\s\S]+?)}}/g;
-     * var compiled = _.template('hello {{ user }}!');
+     * var compiled = _.templates('hello {{ user }}!');
      * compiled({ 'user': 'mustache' });
      * // => 'hello mustache!'
      *
      * // using backslashes to treat delimiters as plain text
-     * var compiled = _.template('<%= "\\<%- value %\\>" %>');
+     * var compiled = _.templates('<%= "\\<%- value %\\>" %>');
      * compiled({ 'value': 'ignored' });
      * // => '<%- value %>'
      *
      * // using the `imports` option to import `jQuery` as `jq`
      * var text = '<% jq.each(users, function(user) { %><li><%- user %></li><% }); %>';
-     * var compiled = _.template(text, { 'imports': { 'jq': jQuery } });
+     * var compiled = _.templates(text, { 'imports': { 'jq': jQuery } });
      * compiled({ 'users': ['fred', 'barney'] });
      * // => '<li>fred</li><li>barney</li>'
      *
-     * // using the `sourceURL` option to specify a custom sourceURL for the template
-     * var compiled = _.template('hello <%= user %>!', { 'sourceURL': '/basic/greeting.jst' });
+     * // using the `sourceURL` option to specify a custom sourceURL for the templates
+     * var compiled = _.templates('hello <%= user %>!', { 'sourceURL': '/basic/greeting.jst' });
      * compiled(data);
      * // => find the source of "greeting.jst" under the Sources tab or Resources panel of the web inspector
      *
-     * // using the `variable` option to ensure a with-statement isn't used in the compiled template
-     * var compiled = _.template('hi <%= data.user %>!', { 'variable': 'data' });
+     * // using the `variable` option to ensure a with-statement isn't used in the compiled templates
+     * var compiled = _.templates('hi <%= data.user %>!', { 'variable': 'data' });
      * compiled.source;
      * // => function(data) {
      * //   var __t, __p = '';
@@ -42481,7 +42481,7 @@ __webpack_require__(/*! ./traversing */ "./node_modules/jquery/src/traversing.js
      * // line numbers in error messages and a stack trace
      * fs.writeFileSync(path.join(cwd, 'jst.js'), '\
      *   var JST = {\
-     *     "main": ' + _.template(mainText).source + '\
+     *     "main": ' + _.templates(mainText).source + '\
      *   };\
      * ');
      */

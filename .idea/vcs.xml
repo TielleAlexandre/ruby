@@ -3,5 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/04 - Projeto_Time_to_Answer/time_to_answer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/04 - Projeto_Time_to_Answer/time_to_answer/public/templates/gentelella" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/04 - Projeto_Time_to_Answer/time_to_answer/public/templates/startbootstrap-sb-admin-2" vcs="Git" />
   </component>
 </project>

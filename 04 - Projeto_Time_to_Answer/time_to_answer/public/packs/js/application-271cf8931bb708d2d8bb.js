@@ -154,7 +154,7 @@ _rails_activestorage__WEBPACK_IMPORTED_MODULE_2__["start"]();
 
 /***/ "./node_modules/@rails/activestorage/app/assets/javascripts/activestorage.js":
 /*!***********************************************************************************!*\
-  !*** ./node_modules/@rails/activestorage/app/assets/javascripts/activestorage.js ***!
+  !*** ./node_modules/@rails/activestorage/app/assets/javascript/activestorage.js ***!
   \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
