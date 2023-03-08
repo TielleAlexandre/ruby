@@ -3,7 +3,8 @@ Rails.application.routes.draw do
   namespace :admins_backoffice do
     get 'admins/index' #dasboard
     #get 'admins/edit/:id', to: "admins#edit"
-    resource :admins
+    resource :admins #Adminsitradores
+    resource :subjects # Assuntos
   end
   namespace :site do
     get 'welcome/index'

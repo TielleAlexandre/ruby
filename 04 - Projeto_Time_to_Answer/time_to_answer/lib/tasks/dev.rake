@@ -1,6 +1,7 @@
 namespace :dev do
 
   DEFAULT_PASS =123456
+  DEFAULT_FILES_PATH = File.join(Rails.root, 'lib', 'tmp')
 
   desc "Configura o Ambiente de Desenvolvimento."
   task setup: :environment do
@@ -16,6 +17,10 @@ namespace :dev do
     ( %x(rails dev:add_default_user) )
     puts "Cadastrando admin extras"
     ( %x(rails dev:add_extra_admins) )
+    puts "Cadastrando assuntos padrões"
+    ( %x(rails dev:add_subjects) )
+    puts "Cadastrando perguntas e respostas"
+    ( %x(rails dev:add_answers_and_questions) )
   end
 
   desc "Adiciona o administrador padrão"
@@ -46,6 +51,29 @@ namespace :dev do
       password_confirmation: DEFAULT_PASS
     )
   end
+
+  desc "Adiciona assuntos padrões"
+  task add_subjects: :environment do
+    file_name = 'subjects.txt'
+    file_path = File.join(DEFAULT_FILES_PATH, file_name)
+
+    File.open(file_path, 'r').each do |line|
+      Subject.create!(description: line.strip)
+    end
+  end
+
+  desc "Adiciona perguntas e respostas"
+  task add_answers_and_questions: :environment do
+      Subject.all.each do |sub|
+        rand(5..10).times.each do |i|
+          Question.create!(
+            description: "#{Faker::Lorem.paragraph} #{Faker::Lorem.question}",
+            subject: sub
+          )
+       end
+    end
+  end
+
 end
 
 

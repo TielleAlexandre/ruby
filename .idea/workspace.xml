@@ -6,22 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="495c400e-ad21-4e03-bfa4-bc6559e88dfe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/Primeiro_Projeto_Ruby_Rails.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Primeiro_Projeto_Ruby_Rails.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 - Projeto_Crypto_Wallet/crypto_project/config/webpack/environment.js" beforeDir="false" afterPath="$PROJECT_DIR$/02 - Projeto_Crypto_Wallet/crypto_project/config/webpack/environment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/config/webpack/environment.js" beforeDir="false" afterPath="$PROJECT_DIR$/03 - Teste_Webpack/config/webpack/environment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/public/packs/js/application-04734911ebca71a1e6f8.js" beforeDir="false" afterPath="$PROJECT_DIR$/03 - Teste_Webpack/public/packs/js/application-04734911ebca71a1e6f8.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/public/packs/js/application-08a07dcbd8de35fbea8d.js" beforeDir="false" afterPath="$PROJECT_DIR$/03 - Teste_Webpack/public/packs/js/application-08a07dcbd8de35fbea8d.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/public/packs/js/application-14d004d466f806013d42.js" beforeDir="false" afterPath="$PROJECT_DIR$/03 - Teste_Webpack/public/packs/js/application-14d004d466f806013d42.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/public/packs/js/application-35b5e6cab0cdf1384e1b.js" beforeDir="false" afterPath="$PROJECT_DIR$/03 - Teste_Webpack/public/packs/js/application-35b5e6cab0cdf1384e1b.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/public/packs/js/application-54f92a260f92a0200b67.js" beforeDir="false" afterPath="$PROJECT_DIR$/03 - Teste_Webpack/public/packs/js/application-54f92a260f92a0200b67.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/public/packs/js/application-573621df115c74858001.js" beforeDir="false" afterPath="$PROJECT_DIR$/03 - Teste_Webpack/public/packs/js/application-573621df115c74858001.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/public/packs/js/application-ad2b1a046af05cdb72b2.js" beforeDir="false" afterPath="$PROJECT_DIR$/03 - Teste_Webpack/public/packs/js/application-ad2b1a046af05cdb72b2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/public/packs/js/application-b418edc6a5ddaa271f75.js" beforeDir="false" afterPath="$PROJECT_DIR$/03 - Teste_Webpack/public/packs/js/application-b418edc6a5ddaa271f75.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/public/packs/js/application-c52457d7f370f4b0456f.js" beforeDir="false" afterPath="$PROJECT_DIR$/03 - Teste_Webpack/public/packs/js/application-c52457d7f370f4b0456f.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/public/packs/js/application-f13b56a93159a275cc8a.js" beforeDir="false" afterPath="$PROJECT_DIR$/03 - Teste_Webpack/public/packs/js/application-f13b56a93159a275cc8a.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/cache/bootsnap/compile-cache-iseq/d7/682b1fd70ccf32" beforeDir="false" afterPath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/cache/bootsnap/compile-cache-iseq/d7/682b1fd70ccf32" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/cache/bootsnap/load-path-cache" beforeDir="false" afterPath="$PROJECT_DIR$/03 - Teste_Webpack/tmp/cache/bootsnap/load-path-cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,24 +31,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/04 - Projeto_Time_to_Answer/time_to_answer/app/assets/images",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "ruby.rails.projectView.checked": "true",
-    "ruby.structure.view.model.defaults.configured": "true",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/04 - Projeto_Time_to_Answer/time_to_answer/app/assets/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
+    &quot;ruby.structure.view.model.defaults.configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/04 - Projeto_Time_to_Answer/time_to_answer/app/assets/images" />
@@ -110,7 +95,8 @@
       <workItem from="1677850623937" duration="13565000" />
       <workItem from="1678109658455" duration="770000" />
       <workItem from="1678111591382" duration="24541000" />
-      <workItem from="1678195301646" duration="21374000" />
+      <workItem from="1678195301646" duration="22535000" />
+      <workItem from="1678287924642" duration="10921000" />
     </task>
     <servers />
   </component>
