@@ -1,0 +1,76 @@
+
+<div class="jumbotron">
+  <p>
+    <% unless user_signed_in? %>
+      <%= link_to 'Entrar', new_user_session_path %>
+      <%= link_to 'Cadastar-se', new_user_registration_path %>
+    <% else %>
+      <%= link_to 'Perfil', users_backoffice_welcome_index_path %>
+      <br>
+      <%= link_to 'Sair', destroy_user_session_path %>
+      <%= current_user.email%>
+    <% end %>
+  </p>
+
+  <br>
+  <h4>Sobre os logins</h4>
+
+<% if user_signed_in? %>
+  <p>Usuário está logado / <%= current_user.email %></p>
+<% else %>
+  <p>Usuário não está logado.</p>
+<% end %>
+
+<% if admin_signed_in? %>
+  <p>Administrador está logado.  / <%= current_admin.email %></p>
+<% else %>
+  <p>Administrador não está logado.</p>
+<% end %>
+</div>
+
+<div id="msg_topo">
+ <h3><%= msg_topo %></h3>
+<br>
+<br>
+</div>
+
+
+<% @questions.each do |question| %>
+  <%= form_with url: site_answer_path do |form|%>
+  <div class="card">
+    <div class="card-header">
+      <div class="card-body">
+        <h5 class="card-title">
+            <%= link_to "#{question.subject.description} #{question.subject.questions_count}", site_search_subject_path(question.subject.id,question.subject.description), class:"badge badge-info", style: "color: white;" %>
+          <%=  question.description %></h5>
+      </div>
+      <ul>
+        <% question.answers.each do |answer| %>
+          <li style="list-style:none;">
+            <div class="radio">
+              <label>
+                <%= radio_button_tag 'answer_id', answer.id %>
+                <%= answer.description %>
+              </label>
+            </div>
+          </li>
+        <% end %>
+        <li style="list-style:none; background-color: #0b97c4; width: 105px; border-radius: 10px;">
+          <%= form.submit "Responder", class:"btn btn-default", id:"submit_#{question.id}"%>
+        </li>
+      </ul>
+    </div>
+  </div>
+   <% end %>
+<% end %>
+
+<br>
+<br>
+
+<% if user_signed_in? %>
+<%= paginate @questions %>
+<% else %>
+ <div class="alert alert-warning" role="alert">
+  Efetue login para continuar respondendo questões.
+ </div>
+<% end %>

@@ -3,10 +3,16 @@ pt-BR:
     models:
       admin:
         one: Administrador
-      other: Administradores
+        other: Administradores
       user:
         one: Usuário
         other: Usuários
+      subject:
+        one: Assunto
+        other: Assuntos
+      question:
+        one: Pergunta
+        other: Perguntas
     attributes:
       admin:
         id: Código
@@ -17,6 +23,28 @@ pt-BR:
         updated_at: Atualizado em
       user:
         id: Código
-        email: E-mail
+        email: Email
+        first_name: Nome
+        last_name: Sobrenome
+        password: Senha
+        password_confirmation: Confirmação da Senha
+        created_at: Criado em
+        updated_at: Atualizado em
+      user_profile:
+        id: Código
+        address: Endereço
+        gender: Sexo
+        birthdate: Data de Nascimento
+        created_at: Criado em
+        updated_at: Atualizado em
+      subject:
+        id: Código
+        description: Descrição
+        created_at: Criado em
+        updated_at: Atualizado em
+      question:
+        id: Código
+        description: Descrição
+        subject: Assunto
         created_at: Criado em
         updated_at: Atualizado em

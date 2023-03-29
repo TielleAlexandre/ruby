@@ -1,12 +1,12 @@
 <h2>Olá, Estou na Assunto-Controller</h2>
 
-<h3>Listando os Assuntos</h3>
+<h3><%= t('messages.listing', model: @subjects.model_name.human(count:2)) %></h3>
 
 <table class="table table-hover">
   <thead>
   <tr>
-    <th scope="col">Id</th>
-    <th scope="col">Descrição</th>
+    <th scope="col"><%= @subjects.model.human_attribute_name(:id) %></th>
+    <th scope="col"><%= @subjects.model.human_attribute_name(:description) %></th>
     <th>
       <%= link_to new_admins_backoffice_subjects_path, class:"btn btn-success btn-circle" do%>
         <i class="fa fa-plus" style="color: #FFFFFF;"></i>

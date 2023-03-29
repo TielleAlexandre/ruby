@@ -1,0 +1,2 @@
+class AdminStatistic < ApplicationRecord
+end

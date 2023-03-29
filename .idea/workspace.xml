@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="495c400e-ad21-4e03-bfa4-bc6559e88dfe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/Primeiro_Projeto_Ruby_Rails.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Primeiro_Projeto_Ruby_Rails.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +38,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/04 - Projeto_Time_to_Answer/time_to_answer/app/assets/images&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/tielle/RubymineProjects/Primeiro_Projeto_Ruby_Rails/04 - Projeto_Time_to_Answer/time_to_answer/lib/javascript&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -51,24 +52,27 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/04 - Projeto_Time_to_Answer/time_to_answer/app/assets/images" />
-      <recent name="$PROJECT_DIR$/04 - Projeto_Time_to_Answer/time_to_answer/app/javascript/images" />
-      <recent name="$PROJECT_DIR$/04 - Projeto_Time_to_Answer/time_to_answer/lib/images" />
+      <recent name="$PROJECT_DIR$/04 - Projeto_Time_to_Answer/time_to_answer/lib/javascript" />
+      <recent name="$PROJECT_DIR$/04 - Projeto_Time_to_Answer/time_to_answer/app/assets/stylesheets/site" />
       <recent name="$PROJECT_DIR$/04 - Projeto_Time_to_Answer/time_to_answer/app/assets/stylesheets" />
-      <recent name="$PROJECT_DIR$/04 - Projeto_Time_to_Answer/time_to_answer/vendor/javascript" />
+      <recent name="$PROJECT_DIR$/04 - Projeto_Time_to_Answer/time_to_answer/app/javascript/packs" />
+      <recent name="$PROJECT_DIR$/04 - Projeto_Time_to_Answer/time_to_answer/app/javascript" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/04 - Projeto_Time_to_Answer/time_to_answer/app/views/site/search" />
+      <recent name="$PROJECT_DIR$/04 - Projeto_Time_to_Answer/time_to_answer/app/views/site" />
+      <recent name="$PROJECT_DIR$/04 - Projeto_Time_to_Answer/time_to_answer/app/assets/stylesheets/site" />
+      <recent name="$PROJECT_DIR$/04 - Projeto_Time_to_Answer/time_to_answer/lib/assets/stylesheets" />
       <recent name="$PROJECT_DIR$/04 - Projeto_Time_to_Answer/time_to_answer/app/javascript/packs" />
-      <recent name="$PROJECT_DIR$/04 - Projeto_Time_to_Answer/time_to_answer/app/javascript/packs/stylesheets" />
     </key>
   </component>
   <component name="RubyModuleManagerSettings">
     <option name="blackListedRootsPaths">
       <list>
-        <option value="$PROJECT_DIR$/03 - Teste_Webpack" />
-        <option value="$PROJECT_DIR$/04 - Projeto_Time_to_Answer/time_to_answer/public/templates/gentelella/vendors/bootstrap" />
-        <option value="$PROJECT_DIR$/04 - Projeto_Time_to_Answer/time_to_answer" />
         <option value="$PROJECT_DIR$/02 - Projeto_Crypto_Wallet/crypto_project" />
+        <option value="$PROJECT_DIR$/04 - Projeto_Time_to_Answer/time_to_answer/public/templates/gentelella/vendors/bootstrap" />
+        <option value="$PROJECT_DIR$/03 - Teste_Webpack" />
+        <option value="$PROJECT_DIR$/04 - Projeto_Time_to_Answer/time_to_answer" />
       </list>
     </option>
   </component>
@@ -96,7 +100,22 @@
       <workItem from="1678109658455" duration="770000" />
       <workItem from="1678111591382" duration="24541000" />
       <workItem from="1678195301646" duration="22535000" />
-      <workItem from="1678287924642" duration="10921000" />
+      <workItem from="1678287924642" duration="10996000" />
+      <workItem from="1678373697884" duration="10979000" />
+      <workItem from="1678457243050" duration="12909000" />
+      <workItem from="1678474582681" duration="6049000" />
+      <workItem from="1678711836622" duration="182000" />
+      <workItem from="1678712029332" duration="12641000" />
+      <workItem from="1678975353553" duration="2815000" />
+      <workItem from="1678987175198" duration="5315000" />
+      <workItem from="1679003094847" duration="788000" />
+      <workItem from="1679335316443" duration="5508000" />
+      <workItem from="1679403752212" duration="23912000" />
+      <workItem from="1679506677653" duration="18676000" />
+      <workItem from="1679577359447" duration="24828000" />
+      <workItem from="1679665134773" duration="18400000" />
+      <workItem from="1679922515751" duration="22062000" />
+      <workItem from="1680111294591" duration="2608000" />
     </task>
     <servers />
   </component>

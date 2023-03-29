@@ -1,0 +1,39 @@
+<h2>Olá, Estou na Questions-Controller</h2>
+
+<h3><%= t('messages.listing', model: @questions.model_name.human(count:2))%></h3>
+
+<table class="table table-hover">
+  <thead>
+  <tr>
+    <th scope="col"><%= @questions.model.human_attribute_name(:id) %></th>
+    <th scope="col"><%= @questions.model.human_attribute_name(:description) %></th>
+    <th scope="col"><%= @questions.model.human_attribute_name(:subject) %></th>
+    <th>
+      <%= link_to new_admins_backoffice_questions_path, class:"btn btn-success btn-circle" do%>
+        <i class="fa fa-plus" style="color: #FFFFFF;"></i>
+      <% end %>
+    </th>
+  </tr>
+  </thead>
+  <tbody>
+  <% @questions.each do |question| %>
+    <tr>
+      <th scope="row"><%= question.id %></th>
+      <td><%= question.description.truncate(50) %></td>
+      <td><%= question.subject.description.truncate(30) %></td>
+      <td style="width: 150px;">
+        <%= link_to edit_admins_backoffice_questions_path(question), class:"btn btn-primary btn-circle"  do %>
+          <i class="fa fa-edit" style="color: #FFFFFF;"></i>
+        <% end %>
+        <%= button_to admins_backoffice_questions_path(question), method: :delete, class:"btn btn-danger btn-circle", data: { confirm: t('messages.confirm_with', item:question.description.truncate(15)) } do %>
+          <i class="fa fa-minus" style="color: #FFFFFF;"></i>
+        <% end %>
+      </td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+
+<div class="text-center">
+  <%= paginate @questions %>
+</div>

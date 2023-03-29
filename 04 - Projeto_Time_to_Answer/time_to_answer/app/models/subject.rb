@@ -1,4 +1,4 @@
 class Subject < ApplicationRecord
-  paginates_per 5
+  paginates_per 10
   has_many  :questions
 end

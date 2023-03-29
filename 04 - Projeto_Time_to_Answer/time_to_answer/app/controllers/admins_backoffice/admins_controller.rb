@@ -3,7 +3,7 @@ class AdminsBackoffice::AdminsController < AdminsBackofficeController
   before_action :search_admin, only: [:edit, :destroy]
 
   def index
-    @admins = Admin.all.page(params[:page])
+     @admins = Admin.all.page(params[:page])
   end
 
   # Ao clicar no botão de edição de um elemente
@@ -55,7 +55,7 @@ class AdminsBackoffice::AdminsController < AdminsBackofficeController
   end
   def verifyPasswordAndPassword_confirmationIsNotNull
     if params[:admin][:password].blank? && params[:admin][:password_confirmation].blank?
-      params[:admin].extract!(:password, :password_confirmation)
+       params[:admin].extract!(:password, :password_confirmation)
     end
   end
 end
